@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 4</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-08-14">August 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="5-r"/><cb ed="#V" n="a"/> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq4">
+  			<head xml:id="hnl1prolq4-Hd1e3495">Librum I, Prologus, Quaestio 4</head>
+  			<head xml:id="hnl1prolq4-Hd1e3498" type="questionTitle">Utrum theologia sit speculativa vel practica</head>
+  			<p xml:id="hnl1prolq4-d1e3501"><lb ed="#V"/>Utrum theologia sit 
+  				<lb ed="#V"/>speculativa vel practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3507">Et arguitur quod 
+  				<lb ed="#V"/>practica: quia scientia affectiva et scientia pra<lb ed="#V"/>ctica 
+  				sicut patet de scientia morali quae facit 
+  				<lb ed="#V"/>hominem bene dispositum secundum affectum: sed 
+  				<lb ed="#V"/>theologia est affectiva: ergo etc. Maior 
+  				<lb ed="#V"/>patet: minor probatur.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3520">Primo per <name ref="#Augustine">Augustinum</name>: qui 
+  				<lb ed="#V"/>dicit quod quicquid patet et quicquid latet in divinis scripturis 
+  				<lb ed="#V"/>est charitas: hoc non esset nisi charitas esset principalis 
+  				<lb ed="#V"/>finis: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3533"><pc ana="#pilcrow"/>Secundo per <name ref="#Paul">apostolum</name> dicentem quod finis prae<lb ed="#V"/>cepti 
+  				est charitas.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3542"><pc ana="#pilcrow"/>Tertio per rationem quia id quod est melius 
+  				<lb ed="#V"/>habet rationem principalis finis: sed in via potior est chari<lb ed="#V"/>tas 
+  				sive affectio quam cognitio: quia melior est in via amore dei 
+  				<lb ed="#V"/>quam est cognitio aenigmatica: ergo principalis finis theo<lb ed="#V"/>logiae 
+  				est affectio sive dilectio.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3554">Contra. Omnis scientia practica est ut de per se obie<lb ed="#V"/>cto 
+  				de aliquo operabili per ipsam scientiam quae 
+  				<lb ed="#V"/>dicitur practica: sed theologia non est ut de per se et primo ob<lb ed="#V"/>iecto 
+  				de operabili aliquo modo: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3563">Respondeo. hic fient tria. <pc ana="#pilcrow"/>Primum est osten<lb ed="#V"/>dere 
+  				unde habet scientia quod sit pra<lb ed="#V"/>ctica: 
+  				<lb ed="#V"/>et unde habet speculativa quod sit speculativa quantum 
+  				<lb ed="#V"/>ad operationem. Nam quantum ad obiectum quod ab eo sit ista di<lb ed="#V"/>stinctio 
+  				radicaliter dictum est.<pc ana="#pilcrow"/>Secundum erit ostendere 
+  				<lb ed="#V"/>quod necessario omnis scientia vel est speculativa vel practica. 
+  				<cb ed="#V" n="b"/><lb ed="#V"/><pc ana="#pilcrow"/>Tertium est ponere opiniones de illa quaestione et <unclear>praeeligentia</unclear> veriorem.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3590"><lb ed="#V"/>Quantum ergo ad primum sciendum est quod cum scien<lb ed="#V"/>tia 
+  				dicatur practica vel speculativa ab 
+  				<lb ed="#V"/>aliqua operatione qua scientia vel intellectus per scientiam at<lb ed="#V"/>tingit 
+  				obiectum scientiae: potest esse duplex operatio scilicet elicita quae 
+  				<lb ed="#V"/>est cognoscere sive considerare et imperata sicut dirigere in 
+  				<lb ed="#V"/>agendis vel faciendis sive etiam ipsum agere bene vel etiam 
+  				<lb ed="#V"/>facere sicut convenienter audere vel domificare. Quando 
+  				<lb ed="#V"/>ergo scientia solo actu elicito attingit obiectum cum actus 
+  				<lb ed="#V"/>elicitus a scientia non possit esse nisi considerare sive specula<lb ed="#V"/>ri: 
+  				tunc talis scientia non habet operationem respectu obiecti 
+  				<lb ed="#V"/>nisi considerare sive speculari. Et ideo talis scientia est tantum spe<lb ed="#V"/>culativa. 
+  				Dicitur autem talis scientia magis speculativa quam consi<lb ed="#V"/>derativa: 
+  				quia consideratio sive cogitatio ordinatur ad videndum 
+  				<lb ed="#V"/>sive ad speculandum veritatem sive ad aliquod perfectius: et quod 
+  				<lb ed="#V"/>scientia talis sit speculativa omnes concedunt. Quantum autem ad 
+  				<lb ed="#V"/>scientiam practicam sciendum quod omnes concedunt quod dicitur practica: quia 
+  				<lb ed="#V"/>ordinatur ad opus. Sed hoc intelligendum est accipiendo 
+  				<lb ed="#V"/>opus pro operatione imperata ab intellectu. Nam opus si 
+  				<lb ed="#V"/>acciperetur pro quacumque operatione indifferenter sic etiam spe<lb ed="#V"/>culativa 
+  				posset dici ordinari ad opus. Nam opus quoddam 
+  				<lb ed="#V"/>potest dici ipsum speculari. Et ideo oportet accipere opus a quo 
+  				<lb ed="#V"/>dicitur scientia practica pro operatione imperata qua scientia attin<lb ed="#V"/>git 
+  				obiectum suum effective causando ipsum vel simpliciter sicut 
+  				<lb ed="#V"/>domificativa facit: vel aliud aliquod sicut medicina facit sa<lb ed="#V"/>num 
+  				aliquod cooperando naturae: ita quod actus elicitus scien<lb ed="#V"/>tiae 
+  				medicinae est cognitio qua medicus scit quomodo debeat sa<lb ed="#V"/>nare: 
+  				sed ipsum sanare vel dirigere in sanando est operatio im<lb ed="#V"/>perata. 
+  				Unde scientia practica dicitur ab operatione imperata et 
+  				<lb ed="#V"/>causata per scientiam: sive ipsa sit obiectum scientiae practicae: 
+  				<lb ed="#V"/>ut cytharizatio est obiectum artis cytharizandi sive ipsa sit 
+  				<lb ed="#V"/>operatio mediante qua scientia practica attingit obiectum suum 
+  				<lb ed="#V"/>effective: sicut dare potionem vel aliquod tale est operatio me<lb ed="#V"/>diante 
+  				qua medicina attingit effective ad ipsum sanum. et hoc de primo.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3663"><lb ed="#V"/>Quantum ad 2m sciendum est quod operatio aliqua tripliciter 
+  				<lb ed="#V"/>potest se habere ad aliquam scientiam. Uno modo an<lb ed="#V"/>tecedenter 
+  				et ut est causa movens ad quaerendum scientiam sicut si 
+  				<lb ed="#V"/>aliquis amore scientiae motus velit accipere scientiam vel uti scien<lb ed="#V"/>tia 
+  				acquisita: et a tali actu non denominatur scientia sicut a fine. Unde 
+  				<lb ed="#V"/>ex hoc non diceretur scientia amativa. Secundo modo potest se ha<lb ed="#V"/>bere 
+  				aliquis actus ad scientiam obiective tantum: ut si aliquis consi<lb ed="#V"/>deraret 
+  				de influentia caeli vel de amore quomodo scilicet aliqua res est 
+  				<lb ed="#V"/>amabilis non intendens ordinare ad acquirendum amorem et 
+  				<lb ed="#V"/>similiter a tali actu non denominatur scientia practica: aliquin sci<lb ed="#V"/>entia 
+  				considerans de motu caeli posset dici motiva vel influ<lb ed="#V"/>xiva: 
+  				si consideraret quomodo caelum influit in inferioribus. Ter<lb ed="#V"/>tio 
+  				modo potest se habere aliquis actus alius ab actu elicito ad 
+  				<lb ed="#V"/>scientiam ut est effectus: et hoc dupliciter: quia potest se habere consecutive 
+  				<lb ed="#V"/>non sicut finis principaliter intentus: sicut si ad studium se<lb ed="#V"/>quatur 
+  				attenuatio corporis non dicetur propter hoc scientia <sic>atte<lb ed="#V"/>nuatina</sic> 
+  				vel ad considerationem alicuius scibilis sequatur dele<lb ed="#V"/>ctatio 
+  				non dicetur propter hoc scientia delectativa. Alio modo 
+  				<lb ed="#V"/>potest scientia esse causa alicuius actus ex intentione principa<lb ed="#V"/>li: 
+  				sicut medicina est causa sanandi et a tali actu denominatur 
+  				scientia sicut a proprio obiecto: sicut medicina dicitur scientia sa<lb ed="#V"/>nativa: 
+  				et talis actus dicitur actus imperatus a scientia. Alii autem 
+  				<lb ed="#V"/>actus praeter actum elicitum qui antecedunt vel obiective vel 
+  				<lb ed="#V"/>consecutive sed non intenti: se habent ad scientiam non sicut actus im<lb ed="#V"/>peranti 
+  				nec denominant eam ut proprius finis ut dictum est. 
+  				<lb ed="#V"/>Et hoc potest probari intentum scilicet quod omnis scientia vel est practica 
+  				<lb ed="#V"/>vel speculativa vel utrumque et hoc potest probari: et ex parte actu<lb ed="#V"/>um 
+  				et ex parte obiectorum.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3727"><pc ana="#pilcrow"/>Ex parte actuum sic: quia om<lb ed="#V"/>nis 
+  				scientia habet pro fine a quo denominatur vel actum elicitum 
+  				<lb ed="#V"/>vel actum imperatum: et hoc patet ex dictis: sed illa quae habet 
+  				<lb ed="#V"/>actum elicitum tantum pro fine secundum omnes est speculativam illa autem 
+  				<lb ed="#V"/>quae habet pro fine actum imperatum est practica: quia talis 
+  				<lb ed="#V"/>scientia est causa effectiva sui obiecti. Nam actus impera<lb ed="#V"/>tus 
+  				vel est obiectum scientiae ut cytharizatio: vel mediante eo 
+  				<lb ed="#V"/>scientia attingit obiectum suum effective. Et sic scientia cu<lb ed="#V"/>ius 
+  				finis est actus imperatus est causa effectiva per impe<pb ed="#V" n="5-v"/><cb ed="#V" n="a"/><lb ed="#V"/>rium 
+  				sui obiecti et talis est practica: ergo omnis scientia 
+  				<lb ed="#V"/>vel est practica vel speculativa vel utrumque si scilicet consideret 
+  				<lb ed="#V"/>aliquod quod est speculabile tantum: et aliquod quod est operabile.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3757"><lb ed="#V"/><pc ana="#pilcrow"/>Ex parte obiecti probatur idem sic: quia ut supra patuit: 
+  				<lb ed="#V"/>scientia speculativa et practica primordialiter distinguuntur 
+  				<lb ed="#V"/>penes obiecta: ita quod illa scientia quae est de operabili per 
+  				<lb ed="#V"/>ipsam scientiam est practica: illa autem quae est de non operabili 
+  				<lb ed="#V"/>per ipsam scientiam est speculativa: sed omnis scientia habet pro 
+  				<lb ed="#V"/>obiecto vel aliquod operabile ipsam vel aliquod non ope<lb ed="#V"/>rabile 
+  				per ipsam: ergo omnis scientia vel est speculativa vel  
+  				<lb ed="#V"/>practica. Dico autem operabile per ipsam scientiam: quia scientiam 
+  				<lb ed="#V"/>esse de eo quod est operabile vel factibile ab aliquo non facit 
+  				<lb ed="#V"/>scientiam quamcumque existentem de eo esse practicam. Nam constat 
+  				<lb ed="#V"/>quod caelum et terra quae homo considerat de quibus homo ha<lb ed="#V"/>bet 
+  				scientiam sunt quaedam factibilia a deo: nec ex hoc sequitur 
+  				<lb ed="#V"/>quod scientia hominis de eis sit practica: quia non sunt factibilia per scientiam 
+  				<lb ed="#V"/>hominis: unde scientia quae est de operabili per ipsam est practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3790">Quantum ad 3m sciendum est quod de principale quaestione sunt 
+  				<lb ed="#V"/>quatuor opiniones. Prima est quod ista scientia 
+  				<lb ed="#V"/>non sit speculativa nec practica loquendo de fine principa<lb ed="#V"/>li. 
+  				Et hoc probant quia ista scientia (ut dicunt) est affectiva: 
+  				<lb ed="#V"/>et hoc probant per rationes ad principale adductas: sed scien<lb ed="#V"/>tia 
+  				affectiva nec est practica nec speculativa: ergo etc. Mi<lb ed="#V"/>norem 
+  				probant: quia practicum et speculativum pertinent ad ha<lb ed="#V"/>bitus 
+  				intellectus: sed affectivum pertinet ad voluntatem: 
+  				<lb ed="#V"/>ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3810"><pc ana="#pilcrow"/>Sed ista positio est impossibilis. Primo quan<lb ed="#V"/>tum 
+  				ad hoc quod ponunt quod ista scientia est affectiva: quia si dicitur 
+  				<lb ed="#V"/>affectiva aut hoc est quia ex affectione acquiritur: aut quia affe<lb ed="#V"/>ctio 
+  				tantum in ea consideratur: aut quia ad efficiendum affectionem 
+  				<lb ed="#V"/>principaliter ordinatur. Primum non potest esse quia cum aliquis 
+  				<lb ed="#V"/>possit ex amore sciendi quamcumque scientiam quaerere omnes essent 
+  				<lb ed="#V"/>affective ubi est principaliter amore veritatis. Dato etiam quod 
+  				<lb ed="#V"/>aliquis ex amore scibilis vellet quaerere vel considerare aliquam 
+  				<lb ed="#V"/>scientiam non propter hoc deberet dici quod esset affectiva: quia fi<lb ed="#V"/>nis 
+  				scientiae non est amor scientiae vel scibilis. sed illud quod quis 
+  				<lb ed="#V"/>vult et appetit consequi per scientiam sive ut obiectum sive ut 
+  				<lb ed="#V"/>actus a scientia elicitus vel imperatus. Nec secundo: quia illa scien<lb ed="#V"/>tia 
+  				quae habet affectionem pro principali obiecto principaliter 
+  				<lb ed="#V"/>considerato tantum tendit in suum obiectum quod est principaliter affe<lb ed="#V"/>ctio 
+  				mediante actu elicito tantum: et talis est speculativa non af<lb ed="#V"/>fectiva: 
+  				nisi fiat denominatio ab obiecto: sicut dicitur scientia naturalis 
+  				<lb ed="#V"/>quia est de ente naturali: et de tali denominatione non quaerimus: 
+  				<lb ed="#V"/>sed de denominatione qua scientia denominatur a fine: qui est actus 
+  				<lb ed="#V"/>elicitus vel imperatus. Item etiam sequeretur quod ista scientia 
+  				<lb ed="#V"/>non esset de deo ut de principali obiecto. Tertio modo etiam 
+  				<lb ed="#V"/>non potest esse quia si principalis intentio theologiae est facere af<lb ed="#V"/>fectionem 
+  				vel aliquem affectuosum: oportet quod principale obie<lb ed="#V"/>ctum 
+  				eius sit affectio sive natum fieri affectuosum. sed hoc 
+  				<lb ed="#V"/>est falsum: quia tunc deus non esset principale obiectum eius: 
+  				<lb ed="#V"/>ergo etc. Probatio maioris: quia quando finis principalis alicuius 
+  				<lb ed="#V"/>scientiae est aliquod efficere: principale consideratum est illud quod 
+  				<lb ed="#V"/>efficitur: hoc enim principaliter intendit scilicet quod sciat quomodo efficiat il<lb ed="#V"/>lud. 
+  				Si ergo theologia principaliter intendit efficere affectio<lb ed="#V"/>nem 
+  				vel affectuosum: sequitur quod affectio vel natum fieri af<lb ed="#V"/>fectuosum 
+  				erit principale obiectum et principaliter consideratum 
+  				<lb ed="#V"/>in theologia. Si autem affectio sequatur ex consideratione dei non 
+  				<lb ed="#V"/>sicut intentum principaliter non dicetur propter huiusmodi affectiva: 
+  				<lb ed="#V"/>ut supra patuit.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3883"><pc ana="#pilcrow"/>Secundo est ista positio impossibilis in 
+  				<lb ed="#V"/>hoc quod ponit scientiam istam nec practicam nec speculativam. 
+  				<lb ed="#V"/>Et hoc patet et in generali: quia supra ostensum est quod impossibile est 
+  				<lb ed="#V"/>aliquam scientiam esse quae non sit practica vel speculativa: et in 
+  				<lb ed="#V"/>speciali hoc patet: quia ista scientia ut supra patuit non potest dici affecti<lb ed="#V"/>va 
+  				nisi principaliter ordinetur ad efficiendum affectivum: sed 
+  				<lb ed="#V"/>hoc positio necesse est ipsam esse practicam: ergo etc. Proba<lb ed="#V"/>tio 
+  				minoris quia practica est quae est effectiva sui obiecti et ten<lb ed="#V"/>dit 
+  				in ipsum vel ut in actum imperatum vel mediante actu impe<lb ed="#V"/>rato: 
+  				sed si principalis finis theologiae esset efficere affe<lb ed="#V"/>ctionem 
+  				vel natum fieri affectuosum affectio esset princi<lb ed="#V"/>pale 
+  				eius obiectum: et sic esset causa efficiens sui obiecti: er<lb ed="#V"/>go 
+  				esset practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3913"><pc ana="#pilcrow"/>Ista autem ratio impugnatur quadrupliciter.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3918"><cb ed="#V" n="b"/><lb ed="#V"/><pc ana="#pilcrow"/>Primo ostendendo quod dato quod principalis finis theolo<lb ed="#V"/>giae 
+  				sit efficere affectionem: non sequitur quod affectio sit principa<lb ed="#V"/>le 
+  				obiectum eius sed deus secundum quod amabilis: et considerando deum 
+  				<lb ed="#V"/>secundum quod est amabilis erit causa affectionis: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3930"><pc ana="#pilcrow"/>Secun<lb ed="#V"/>do 
+  				quia dato quod theologia sit aliquo modo concausa disponendo re<lb ed="#V"/>spectu 
+  				affectionis: quia tamen non est sufficiens causa per se non 
+  				<lb ed="#V"/>est practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3940"><pc ana="#pilcrow"/>Tertio quia ista scientia considerat quomodo boni 
+  				<lb ed="#V"/>simus secundum affectum ideo est affectiva: sed quia non considerat 
+  				<lb ed="#V"/>quomodo fiamus boni a nobis sed ab alio scilicet a deo ideo non eset 
+  				<lb ed="#V"/>practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3950"><pc ana="#pilcrow"/>Quarto quia ut dicunt sicut illa scientia quae est cir<lb ed="#V"/>ca 
+  				mores hominum licet aliquid efficiat in homine: non tamen proprie 
+  				<lb ed="#V"/>dicitur factiva sed activa: ita est hic: licet theologia aliquod fa<lb ed="#V"/>ciat 
+  				ad affectionem: non tamen debet dici proprie practica: sed affe<lb ed="#V"/>ctiva: 
+  				sed ista nihil valent.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3962">Ad primum ergo dicendum est quod 
+  				<lb ed="#V"/>ut dictum est: est impossibile quod scientia quae principaliter intendit quomodo 
+  				<lb ed="#V"/>sciat efficere affectionem non habeat facere affectionem pro prin<lb ed="#V"/>cipali 
+  				considerato: immo hoc dicere est statim contradicere. 
+  				<lb ed="#V"/>Et scientia talis si consideraret de amabili hoc esset ut de causa sui 
+  				<lb ed="#V"/>obiecti: quia per hoc homo efficitur affectuosus quod principaliter 
+  				<lb ed="#V"/>intenditur. Si autem consideraret de deo secundum quod amabile non 
+  				<lb ed="#V"/>ut ex hoc principaliter intenderet facere affectuosum: tunc non 
+  				<lb ed="#V"/>esset affectiva sed speculativa: quia tenderet in suum obiectum 
+  				<lb ed="#V"/>tantum mediante actu elicito.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3984"><pc ana="#pilcrow"/>Ad 2m dicendum est quod ad scientiam 
+  				<lb ed="#V"/>practicam non requiritur quod sit sufficiens causa sui obiecti: sed suf<lb ed="#V"/>ficit 
+  				quod sit vel causa vel concausa: dummodo principaliter ordine<lb ed="#V"/>tur 
+  				ad causandum vel concausandum suum obiectum: sicut patet 
+  				<lb ed="#V"/>de arte medicine que non est sufficiens causa sanitans: sed con<lb ed="#V"/>causa 
+  				cooperans naturae.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e3999"><pc ana="#pilcrow"/>Ad 3m dicendum est quod illud est val<lb ed="#V"/>de 
+  				irrationabile. Nam considerare quomodo fiamus boni ab alio 
+  				<lb ed="#V"/>nihil ad hoc cooperando est speculativum et non est specula<lb ed="#V"/>tivum. 
+  				Si enim considerem quomodo deus me fecit bonum in 
+  				<lb ed="#V"/>bonitate naturae vel in bonitate moris considerando quomodo 
+  				<lb ed="#V"/>inserta sunt nobis naturaliter amore boni et cognitio veri con<lb ed="#V"/>stat 
+  				quod haec est speculari et attingere obiectum mediante actu eli<lb ed="#V"/>cito 
+  				tantum: et sic etiam considerare tantum quomodo fiamus boni secundum bo<lb ed="#V"/>nitatem 
+  				gratiae: est materiae speculativum.</p>
+  			<p xml:id="hnl1prolq4-d1e4020"><pc ana="#pilcrow"/>Ad 4m dicendum quod 
+  				<lb ed="#V"/>cum scientia practica dicatur illa quae qualitercumque attingit suum 
+  				<lb ed="#V"/>obiectum effective: ita quod hoc sit principaliter intentum sive 
+  				<lb ed="#V"/>hoc fit per factionem. sive per actionem: habet activa unde pos<lb ed="#V"/>sit 
+  				distingui contra factivam: non tamen contra practicam. Similiter 
+  				<lb ed="#V"/>etiam affectiva cum ordinetur principaliter ad efficiendum af<lb ed="#V"/>fectionem 
+  				impossibile est quod distinguatur contra practicum.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4037"><pc ana="#pilcrow"/>Ad 
+  				<lb ed="#V"/>motiva istorum patebit in sine solvendo rationes factas ad quaestio<lb ed="#V"/>nme. 
+  				Ratio autem quae probat quod si ponatur affectiva quod non sit 
+  				<lb ed="#V"/>speculativa vel practica: quia practicum et speculativum pertinent 
+  				<lb ed="#V"/>ad intellectum. affectio vero vel affectuosum ad voluntatem ni<lb ed="#V"/>hil 
+  				valet: quia licet affectio vel habitus affectuosus inclinans 
+  				<lb ed="#V"/>voluntatem in amorem non sit in intellectu: scientia tamen quae est cau<lb ed="#V"/>sa 
+  				affectionis modo quo intellectus practicus potest esse causa ali<lb ed="#V"/>cuius 
+  				est in intellectu. Dicere enim quod scientia affectiva non sit 
+  				<lb ed="#V"/>in intellectu est absurdius: sicut etiam factio freni licet sit in 
+  				<lb ed="#V"/>materia exteriori sicut in subiecto. Scientia tamen frenefactiva quae est 
+  				<lb ed="#V"/>causa huiusmodi factionis est in intellectu.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4064"><pc ana="#pilcrow"/>Alio opinio est 
+  				<lb ed="#V"/>quae ponit quod est principaliter practica: quia principaliter ordina<lb ed="#V"/>tur 
+  				ad hoc quod homo amet deum. Sed hoc etiam non potest stare 
+  				<lb ed="#V"/>quia sequeretur ut saepe dictum est quod amore vel natum fieri ama<lb ed="#V"/>tum 
+  				vel aliquid operabile a nobis esset principale obiectum 
+  				<lb ed="#V"/>huius scientiae: quod falsum est. Ad motivum istorum patebit in fine 
+  				<lb ed="#V"/>quia per idem motivum ponunt ipsam practicam per quod ponunt 
+  				<lb ed="#V"/>alii eam affectivam.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4083"><pc ana="#pilcrow"/>Tertio opinio ponit eam simpliciter pra<lb ed="#V"/>cticam 
+  				et simpliciter speculativam: magis tamen principaliter specula<lb ed="#V"/>tivam 
+  				quam practicam. Primum probatur sic: quia dato quod non habe<lb ed="#V"/>remus 
+  				scientiam eorum quae de deo sunt speculabilia: tamen adhuc 
+  				<lb ed="#V"/>indigeremus habere scientiam bene opernadi ad merendum vi<lb ed="#V"/>tame 
+  				aeternam. Ex hoc sic arguitur. Illa scientia quae intendit pra<lb ed="#V"/>xim 
+  				gratia sui: est principaliter practica: theologia est huiusmodi: er<lb ed="#V"/>go 
+  				etc. Probatio minoris: quia ut dictum est. in theologia in<lb ed="#V"/>tenditur 
+  				bene operari non propter speculationem viae: quia ut dictum 
+  				<lb ed="#V"/>est dato quod non haberemus scientiam de eis quae sunt speculativa de 
+  				<lb ed="#V"/>deo adhuc indigeremus scire operari propter meritum vitae aeternae.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4108"><pb ed="#V" n="6-r"/><cb ed="#V" n="a"/><lb ed="#V"/><pc ana="#pilcrow"/>Secundo sic: quia non minus debet theologus in civilitate 
+  				<lb ed="#V"/>christiana intendere bene operari moraliter quam philosophus in civilitate 
+  				<lb ed="#V"/>humana: sed philosophia humana intendit principaliter et propter se 
+  				<lb ed="#V"/>bene operari moraliter: et non solum propter speculationem: ergo etc.
+  				<lb ed="#V"/>Et sic videtur theologia principaliter practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4125"><pc ana="#pilcrow"/>Secundum pro<lb ed="#V"/>bant 
+  				sic: quia illa scientia quae intendit speculationem gratia sui: et 
+  				<lb ed="#V"/>non solum propter aliquod opus est principaliter speculativa: theo<lb ed="#V"/>logia 
+  				est huiusmodi: ergo etc. Probatio minoris: quia dato quod non 
+  				<lb ed="#V"/>haberemus scientiam qua sciremus quid deberemus facere ad
+  				<lb ed="#V"/>merendum vitam aeternam: adhuc deberemus habere scientiam de 
+  				<lb ed="#V"/>hiis quae sunt speculabilia de deo: ut sic transeamus a ne<lb ed="#V"/>scientia 
+  				ad perfectam cognitionem patriae per cognitionem quae 
+  				<lb ed="#V"/>potest haberi per revelationem in via: et sic theologia debet inten<lb ed="#V"/>dere 
+  				speculationem propter se. Et sic theologia est principaliter 
+  				<lb ed="#V"/>practica: et per consequens principaliter de obiecto operabili: et princi<lb ed="#V"/>paliter 
+  				speculativa: et per consequens de obiecto speculabili. Ista autem 
+  				<lb ed="#V"/>obiecta sunt diversarum rationum. Diversa autem obiecta diver<lb ed="#V"/>sarum 
+  				rationum et principalia diversificant scientias: ideo di<lb ed="#V"/>cunt 
+  				quod theologia non est simpliciter una: sed quadam colligo<lb ed="#V"/>ne 
+  				inquantum utrique finis theologiae per se ordinatur ad 
+  				<lb ed="#V"/>unum finem extrinsecum qui est beatitudo.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4163"><pc ana="#pilcrow"/>Tertium autem scilicet 
+  				<lb ed="#V"/>quod magis principaliter est speculativa quam practica probant per 
+  				<lb ed="#V"/>hoc: quia speculatio magis convenit cum fine ultimo qui est vi<lb ed="#V"/>sio:  
+  				et ideo speculatio magis intenditur sicut illud quod est pro<lb ed="#V"/>pinquius 
+  				ultimo fini. Quid autem sit tenendum de ista opinio<lb ed="#V"/>ne 
+  				patebit pertractando quartam.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4177"><pc ana="#pilcrow"/>Quarta opinio ponit quod 
+  				<lb ed="#V"/>ista scientia est speculativa et practica: sed tamen principaliter est 
+  				<lb ed="#V"/>speculativa secundario practica: et tamen cum hoc est simpliciter una 
+  				<lb ed="#V"/>scientia. Quod sit speculativa patet: quia illa scientia quae tendit in 
+  				<lb ed="#V"/>obiectum mediante actu elicito tantum qui est considerare sive spe<lb ed="#V"/>culari 
+  				est speculativa: sed theologia habet obiectum respe<lb ed="#V"/>ctu 
+  				cuius habet tantum speculari scilicet deum: ideo est speculativa.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4194"><lb ed="#V"/><pc ana="#pilcrow"/>Secundum scilicet quod sit practica probatur: quia scientia quae intendit 
+  				<lb ed="#V"/>effective causare suum obiectum et habet operabile pro obie<lb ed="#V"/>cto 
+  				est practica: theologia est huiusmodi: quia habet pro obiecto sal<lb ed="#V"/>tem 
+  				secundario aliqua operabilia quae quantum ad illam partem sui 
+  				<lb ed="#V"/>immendit efficere et operari: et sic est practia.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4207"><lb ed="#V"/><pc ana="#pilcrow"/>Tertium quod 
+  				<lb ed="#V"/>theologia principaliter sit speculativa et secundario practica. 
+  				<lb ed="#V"/>Probatur: quia illa operatio quae convenit scientiae respectu primi 
+  				<lb ed="#V"/>et per se obiecti est ei principalis: et illa quae convenit ei respe<lb ed="#V"/>ctu 
+  				secundarii obiecti est ei secundario conveniens et finis secundarius: 
+  				<lb ed="#V"/>sed operatio quae convenit theologiae respectu primi et per se 
+  				<lb ed="#V"/>obiecti dei scilicet secundum quod deus est: est speculatio: operatio vero quae 
+  				<lb ed="#V"/>convenit ei respectu secundarii est praxis: ergo principaliter et 
+  				<lb ed="#V"/>sicut a fine principali est speculativa: sed secundario est practi<lb ed="#V"/>ca.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4231"><pc ana="#pilcrow"/>Quartum scilicet quod non obstante quod sit speculativa et practica 
+  				<lb ed="#V"/>nihilominus sit una simpliciter potest ostendi.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4238"><pc ana="#pilcrow"/>Ad cuius eviden<lb ed="#V"/>tiam 
+  				sciendum quod magis est attendenda unitas scientiae ex unita<lb ed="#V"/>te 
+  				obiecti formalis quam ex ordine unius finis ad alterum. Nam 
+  				<lb ed="#V"/>forte dato quod praxis aliqua ordinaretur ad speculationem: tamen 
+  				<lb ed="#V"/>non oporteret quod pertineret ad eandem scientiam: nisi obiectum 
+  				<lb ed="#V"/>unius esset sufficiens ratio considerandi de alio. Unde dato quod 
+  				<lb ed="#V"/>moralis philosophia esset principaliter propter speculationem metaphy<lb ed="#V"/>sicae: 
+  				non tamen oporteret quod pertineret ad eandem scientiam cum <choice><sic>me<lb ed="#V"/>physica</sic><corr>meta<lb ed="#V"/>physica</corr></choice>: 
+  				quia obiectum metaphysicae non esset sufficiens causa 
+  				<lb ed="#V"/>quare aliquid deberet fieri: quia nihil est dictu quod aliquis opere<lb ed="#V"/>tur 
+  				propter ens universale: licet propter speculationem entis aliquid sit 
+  				<lb ed="#V"/>faciendum: et similiter in aliis scientiis humanis non invenitur ali<lb ed="#V"/>quod 
+  				obiectum quod sit ratio practicandi vel propter quod debeat ali<lb ed="#V"/>quid 
+  				fieri: quia obiecta scientiarum speculativarum humanarum 
+  				<lb ed="#V"/>sunt universalia quae non sunt talia propter quae aliqua debeant fieri: 
+  				<lb ed="#V"/>licet propter eorum speculationem aliquid debeat fieri.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4282"><pc ana="#pilcrow"/>Ulterius 
+  				<lb ed="#V"/>sciendum quod non solum propter visionem dei est bene operandum: 
+  				<lb ed="#V"/>quia hoc est operari propter bonum commodum: sed etiam propter 
+  				<lb ed="#V"/>ipsum deum: ita quod dato quod nullum commodum inde perveniat: tamen 
+  				<lb ed="#V"/>deus secundum quod deus: est tale ens propter quod et propter cuius ho<lb ed="#V"/>norem 
+  				quodcumque opus bonum et rectum est faciendum. Unde 
+  				<lb ed="#V"/>deus secundum quod deus: ratio est considerandi operabilia: et per consequens 
+  				<lb ed="#V"/>scientia quae considerat deum in eo quod deus se potest extendere ad 
+  				<lb ed="#V"/>considerandum operabilia: ita quod possumus formare rationem unam 
+  				<cb ed="#V" n="b"/><lb ed="#V"/>sic.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4306"><pc ana="#pilcrow"/>Ubi est dare unum primum et per se obiectum quod est 
+  				<lb ed="#V"/>ratio sufficiens considerandi omnia alia quantumcumque sint diversa 
+  				<lb ed="#V"/>secundario considerata ibi est una scientia: sed theologia habet 
+  				<lb ed="#V"/>unum primum et per se obiectum scilicet deum secundum quod deus: quod est 
+  				<lb ed="#V"/>sufficiens ratio considerandi non tantum speculabilia sed etiam ope<lb ed="#V"/>rabilia 
+  				et secundum quod operabilia: ergo theologia una scientia sim<lb ed="#V"/>pliciter 
+  				existens potest esse speculativa et practica.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4323"><pc ana="#pilcrow"/>Ad illud ergo 
+  				<lb ed="#V"/>quod illi de tertia opinione dicunt quod scilicet est principaliter practica: 
+  				<lb ed="#V"/>quia praxis est gratia sui et non gratia speculationis viae: quia praxis 
+  				<lb ed="#V"/>non quaeritur principaliter propter speculationem viae: dicendum 
+  				<lb ed="#V"/>est quod praxis dicitur principaliter comparando ad speculationem: quia 
+  				<lb ed="#V"/>non est propter speculationem viae principaliter: tamen et operatio 
+  				<lb ed="#V"/>et operabile est propter speculatum obiectum: et ideo faciendo 
+  				<lb ed="#V"/>comparationem ex parte obiectorum sic speculabile est princi<lb ed="#V"/>pale 
+  				obiectum et operabile secundarium: quia nec consideratur operabile 
+  				<lb ed="#V"/>nisi propter primum et per se obiectum quod est speculabile: ita 
+  				<lb ed="#V"/>etiam speculatio est principalis finis et operatio secundarius. Et 
+  				<lb ed="#V"/>quia dicitur quod propter vitam aeternam debemus operari dato quod nihil 
+  				<lb ed="#V"/>consideraretur de speculabilibus divinis. Dico quod nec vita aeter<lb ed="#V"/>na 
+  				<pc type="virgula">/</pc> accipiendo vitam aeternam pro visione ut est quoddam com<lb ed="#V"/>modum 
+  				hominis: nec aliquod commodum est principalis ratio bene 
+  				<lb ed="#V"/>operandi: immo deus in eo quod deus: dato quod nullum commodum 
+  				<lb ed="#V"/>inde deberet venire. Et ideo ablato speculabili bono quod 
+  				<lb ed="#V"/>est deus in eo quod deus non manet ratio principalis consideran<lb ed="#V"/>di 
+  				operabilia. Propter hoc <unclear>hoc</unclear> patet ad aliud quod dicunt quod theolo<lb ed="#V"/>gia 
+  				habet diversa obiecta principalia: quod non est ita: immo ha<lb ed="#V"/>bet 
+  				unum obiectum principale scilicet speculabile: quod est primo 
+  				<lb ed="#V"/>consideratum et quod est ratio considerandi operabile.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4375"><lb ed="#V"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq4-d1e3507">Ad rationem</ref> in oppositum dicendum est quod Minor est falsa.</p>
+  			
+  			<p><lb ed="#V"/>Et <ref type="commentary" target="http://scta.info/resource/hnl1prolq4-d1e3520">ad primam probationem</ref> dicendum est quod non 
+  				<lb ed="#V"/>est intentio Augustini dicere quod finis principalis theologiae sit cha<lb ed="#V"/>ritas: 
+  				sed intentio sua est: quod qui non potest pertingere ad perfectionem theologiae sufficit ei ad salutem hominis charitas: ita tamen 
+  				<lb ed="#V"/>quod charitas includit cognitionem per dilectionem operantem.</p>
+  			
+  			<p xml:id="hnl1prolq4-d1e4387"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq4-d1e3533">Ad 2m</ref> dicendum est quod non dicit <name ref="#Paul">Apostolus</name>: quod finis principalis to<lb ed="#V"/>tius 
+  				theologiae sit charitas: sed quod est finis praecepti: tota autem 
+  				<lb ed="#V"/>theologia non stat in praeceptis.</p>
+  			
+  			
+  			<p xml:id="hnl1prolq4-d1e4399"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq4-d1e3542">Ad 3m</ref> dicendum est quod secundum 
+  				<lb ed="#V"/>quosdam licet dilectio viae sit potior meritoriae in genere bo<lb ed="#V"/>ni 
+  				utilis quam cognitio viae: tamen essentialiter cognitio est potior 
+  				<lb ed="#V"/>dilectione: sicut sunt lingus est essentialiter potior <unclear>merello</unclear> 
+  				<lb ed="#V"/>regis: sed merellus est melior in genere boni utilis. Illud 
+  				<lb ed="#V"/>autem quod est essentialiter potius: magis habet rationem finis. Et si di<lb ed="#V"/>catur 
+  				contra hoc quod dilectio sit simpliciter melior: sicut et mere<lb ed="#V"/>lus 
+  				videtur melior simpliciter quam sunt lingus: quia libenter datur 
+  				<lb ed="#V"/>sunt lingus pro eo. Dicendum quod non oportet: quia directe sunt lin<lb ed="#V"/>gus 
+  				non datur pro merello: licet pro eo quod accipitur pro merel<lb ed="#V"/>lo. 
+  				Vel potest dici quod dato quod dilectio sit simpliciter melior cogni<lb ed="#V"/>tione: 
+  				non tamen id quod facit illa scientia ad dilectionem est meli<lb ed="#V"/>us 
+  				ipsa cognitione: quia ista scientia non facit ad dilectionem 
+  				<lb ed="#V"/>causando principaliter charitatem: sed disponendo per dire<lb ed="#V"/>ctionem 
+  				et admonitionem: et ostendendo quid ex charitate sit di<lb ed="#V"/>ligendum 
+  				vel faciendum. Cognitio autem nobilior est ista co<lb ed="#V"/>operatione: 
+  				dato quod charitas vel dilectio sit simpliciter nobilior 
+  				<lb ed="#V"/>quia nobilius quod ex charitate propter deum potest fieri: est considerare et 
+  				<lb ed="#V"/>contemplare maiestatem eius. Vel potest dici sicut motus manus non 
+  				<lb ed="#V"/>est finis alicuius scientiae humanae: quia virtus motiva est a natura: 
+  				<lb ed="#V"/>licet ea quae per motum manus fiunt possint esse finis alicuius scientiae si<lb ed="#V"/>cut 
+  				domus: sic est dilectio non est finis huius scientiae cum habitus 
+  				<lb ed="#V"/>dilectionis sit a deo creante: sed operari alia ex charitate potest 
+  				<lb ed="#V"/>esse finis huius scientiae. Et ideo potest dici ad rationem quod dato quod dile<lb ed="#V"/>ctio 
+  				sit simpliciter nobilior cognitione in via adhuc non sequitur 
+  				<lb ed="#V"/>quod dilectio sit finis huius scientiae vel alterius: sed operari alia ex dile<lb ed="#V"/>ctione 
+  				inter quae considerare et contemplari maiestatem divi<lb ed="#V"/>nam 
+  				est nobilissimum.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

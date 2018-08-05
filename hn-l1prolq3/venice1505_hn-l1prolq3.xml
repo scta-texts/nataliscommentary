@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 3</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-08-14">August 14, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="4-v"/><cb ed="#V" n="a"/> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq3">
+  			<head xml:id="hnl1prolq3-Hd1e3495">Librum I, Prologus, Quaestio 3</head>
+  			<head xml:id="hnl1prolq3-Hd1e3498" type="questionTitle">Utrum ista scientia debeat nominari a sine habendo in via vel in patria</head>
+  			<p xml:id="hnl1prolq3-d1e3501"><lb ed="#V"/>Utrum ista scientia debeat denominari a fine habendo in via vel in 
+  				<lb ed="#V"/>patria.</p> 
+  			 
+  			<p xml:id="hnl1prolq3-eaqpee">Et arguitur quod debet dici practica 
+  				<lb ed="#V"/>vel speculativa a fine habendo in patria: quia 
+  				<lb ed="#V"/>unumquodque denominatur a fine principaliter in<lb ed="#V"/>tento: 
+  				sed finis principaliter intentus in theo<lb ed="#V"/>logia
+  				est habitudo patriae: ergo et.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3515"><pc ana="#pilcrow"/>Prae<lb ed="#V"/>terea 
+  				statui viatoris inquantum huiusmodi repugnat attingere 
+  				<lb ed="#V"/>finem et terminum: sed theologia est scientia viatoris secundum 
+  				<cb ed="#V" n="b"/><lb ed="#V"/>quod viator: ergo impossibile est quod in viat attingatur finis 
+  				<lb ed="#V"/>theologiae.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3528"><pc ana="#pilcrow"/>Praeterea in habitibus ordinatis finis ulti<lb ed="#V"/>mus 
+  				debet esse proprius suppremi habitus a quo suppre<lb ed="#V"/>mus 
+  				habitus denominatur sicut regere communitatem est fi<lb ed="#V"/>nis 
+  				politice a quo denominatur: quia in vita civili est ultimus fi<lb ed="#V"/>nis: 
+  				sed suppremus et ultimus finis actuum omnium et scientiarum 
+  				<lb ed="#V"/>humanarum est beatitudo patriae: ergo debet esse proprius fi<lb ed="#V"/>nis 
+  				suppremae scientiae humanae: sed haec est theologia: ergo be<lb ed="#V"/>atitudo 
+  				patriae est proprius finis theologiae.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3548"><lb ed="#V"/>Contra. Nulla scientia denominatur a fine extrinseco: sed 
+  				<lb ed="#V"/>beatitudo patriae est finis <sic>extrisecus</sic> respe<lb ed="#V"/>ctu 
+  				theologiae viae: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3559">Respondeo. Licet forte magis possit theologia de<lb ed="#V"/>nominari 
+  				a beatitudine patriae quam frene<lb ed="#V"/>factiva 
+  				possit denominari a fine aequestris qui est aequitare: tamen 
+  				<lb ed="#V"/>mihi videtur quod theologia debeat denominari sicut a proprio et 
+  				<lb ed="#V"/>intrinseco fine a fine habendo in via: et ita quod non dicitur 
+  				<lb ed="#V"/>proprie speculativa a speculatione patriae sed viae.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3572">Ad cuius evidentiam primo praemittenda est quaedam 
+  				<lb ed="#V"/>distinctio de finibus videlicet quod loquen<lb ed="#V"/>do 
+  				de finibus qui sunt assecutiones quaedam: et qui sunt fi<lb ed="#V"/>nes 
+  				per se. Quidam enim finis proprius est: sicut inhabitatio 
+  				est finis domus: et quidam communis: et hic dicitur duplex. Nam 
+  				<lb ed="#V"/>quidam est communis per praedicationem: sicut speculatio est finis com<lb ed="#V"/>munis 
+  				omni scientiae speculativae quia scilicet finis cuiuslibet scientiae 
+  				<lb ed="#V"/>speculativae est quaedam speculatio. Alius est communis per causa<lb ed="#V"/>litatem 
+  				sicut bonum regimen communitatis est finis communis omnium 
+  				<lb ed="#V"/>scientiarum practicarum puta aequaestris bellicae et sic de aliis: et 
+  				<lb ed="#V"/>ista denominat suppremam scientiam practicam: alias autem non deno<lb ed="#V"/>minat: 
+  				non enim aequestris vel bellica dicitur regitiva communitatis.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3596">Secundo videndum est quomodo dicitur aliquis finis intrin<lb ed="#V"/>secus 
+  				ipsi scientiae. <pc ana="#pilcrow"/>Ad quod sciendum est quod 
+  				<lb ed="#V"/>finem esse intrinsecum ipsi scientiae tripliciter potest intelligi. Uno 
+  				<lb ed="#V"/>modo sic: quod sic sit scientiae intrinsecus quod sit idem per essentiam 
+  				<lb ed="#V"/>cum ea: et sic non dicitur finis intrinsecus scientiae alicuius: quia idem 
+  				<lb ed="#V"/>non est finis suiipsius. Alio modo potest dici finis scientiae intrinse<lb ed="#V"/>cus 
+  				quia scilicet est in eadem potentia cum scientia: et isto modo finis spe<lb ed="#V"/>culativarum 
+  				scientiarum potest dici finis intrinsecus scientiae: quia specula<lb ed="#V"/>ri 
+  				est in eadem potentia cum scientia. Tertio modo dicitur fi<lb ed="#V"/>nis 
+  				intrinsecus scientiae: quia est intra virtutem sive causalitatem 
+  				<lb ed="#V"/>ipsius quia scilicet ad ipsum virtute scientiae directe attingitur: et isto modo 
+  				<lb ed="#V"/>dicitur finis intrinsecus scientiarum practicarum praxis vel interior vel 
+  				<lb ed="#V"/>exterior. Unde isto modo frenum vel facere frenum potest dici fi<lb ed="#V"/>nis 
+  				intrinsecus frenefactive: et de fine sic intrinseco inten<lb ed="#V"/>ditur: 
+  				quando quaeritur de fine intrinseco alicuius scientiae: et per oppo<lb ed="#V"/>situm 
+  				ad talem finem instrinsecum dicitur finis extrinsecus ad quem 
+  				<lb ed="#V"/>directe causalitas scientiae non attingit sed disponit a remo<lb ed="#V"/>to 
+  				ad ipsum inquantum disponit ad aliquem habitum a 
+  				<lb ed="#V"/>quo attingitur: sicut scientia moralis disponit ad speculationem 
+  				<lb ed="#V"/>sicut ad finem remotum et extrinsecum inquantum dis<lb ed="#V"/>ponit 
+  				ad habitus speculativos.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3644"><lb ed="#V"/>Tertio ponendae sunt rationes probantes principalem con<lb ed="#V"/>clusionem: 
+  				quae probatur quinque rationibus quarum 
+  				<lb ed="#V"/>prima procedit ex distinctione data de finibus et est talis. 
+  				<lb ed="#V"/>In habitibus ordinatis ad diversos fines habentes per se or<lb ed="#V"/>dinem. 
+  				Finis suppremi habitus ipsum solum denominat sicut 
+  				<lb ed="#V"/>eius proprius finis: sed suppremus habitus intellectus crea<lb ed="#V"/>ti 
+  				est habitus gloriae puta lumen gloriae: ergo suppremus finis intellectus 
+  				<lb ed="#V"/>creati qui finis est communis per causalitatem est proprius finis lumi<lb ed="#V"/>nis 
+  				gloriae sive habitus ipsum solum denominans ut eius pro<lb ed="#V"/>prius 
+  				finis sibi proportionatus: sed finis suppremus intel<lb ed="#V"/>lectus 
+  				creati est visio dei per essentiam: ergo visio patriae est 
+  				<lb ed="#V"/>proprius finis habitus gloriae ipsum solum denominans sicut re<lb ed="#V"/>gimen 
+  				communitatis solam politicam denominat: non ergo est proprius 
+  				<lb ed="#V"/>finis theologiae viae ipsam denominans esse speculativam.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3676"><lb ed="#V"/><pc ana="#pilcrow"/>Secunda ratio procedit ex eadem radice et est talis. Impossibile 
+  				<lb ed="#V"/>est quod eadem operatio se habeat ad diversos habitus et prae<lb ed="#V"/>cipue 
+  				eiusdem generis sicut sunt habitus intellectus adinvi<lb ed="#V"/>cem 
+  				comparati ut proprius finis eorum quodlibet eorum denominans 
+  				<lb ed="#V"/>sicut impossibile est quod sit idem finis metaphysice et geo<pb ed="#V" n="5-r"/><cb ed="#V" n="a"/><lb ed="#V"/>metriae: 
+  				sed visio patriae est proprius finis habitus patriae scilicet 
+  				<lb ed="#V"/>luminis gloriae: ergo impossibile est ut videtur quod possit esse 
+  				<lb ed="#V"/>proprius finis theologiae viae.</p>
+  			<p xml:id="hnl1prolq3-d1e3699"><pc ana="#pilcrow"/>Tertia ratio procedit ex dif<lb ed="#V"/>ferentia 
+  				finis intrinseci et extrinseci: quia finis scientiae intrin<lb ed="#V"/>secus 
+  				dicitur qui continetur intra causalitatem scientiae: et iste solus de<lb ed="#V"/>nominat 
+  				et non extrinsecus: sed visio patriae est extra causalita<lb ed="#V"/>tem 
+  				theologiae viae: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3711"><pc ana="#pilcrow"/>Quarta ratio procedit ex 
+  				<lb ed="#V"/>eadem radice et est confirmatio praecedentis: quia scientia non de<lb ed="#V"/>nominatur 
+  				ab aliqua operatione nisi fit ab ea elicita vel imperata: 
+  				quia operatio denominans eam esse operatio qua attingit obiectum 
+  				<lb ed="#V"/>sive imperative sive elicitive: sed theologia viae non habet ad 
+  				<lb ed="#V"/>visionem patriae elicitivae nec imperative: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3723"><pc ana="#pilcrow"/>Quin<lb ed="#V"/>ta 
+  				ratio est ex speciali ratione speculationis patriae: et est talis: quia 
+  				<lb ed="#V"/>speculatio patriae est visio: sed nullus habitus viae potest di<lb ed="#V"/>ci 
+  				habitus visivus dei: ergo etc. Nec potest dici quod propter 
+  				<lb ed="#V"/>hoc dicatur theologia speculativa: quia disponit per meritum 
+  				<lb ed="#V"/>ad speculationem patriae: quia sic etiam disponunt habitus vir<lb ed="#V"/>tutum 
+  				qui tamen non possunt dici proprie habitus speculativi.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3740"><lb ed="#V"/><pc ana="#pilcrow"/>Sexta ratio potest adduci scilicet quod habitus manet cum ope<lb ed="#V"/>ratione 
+  				a qua denominatur: sed theologia viae saltem ad id su<lb ed="#V"/>per 
+  				quod fundatur: scilicet quantum ad fidem non ma<lb ed="#V"/>net 
+  				cum speculatione patriae: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3751"><lb ed="#V"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq3-eaqpee">Ad primum</ref> in oppositum dicendum quod non oportet semper 
+  				<lb ed="#V"/>scientiam denominari a fine principaliter intento: 
+  				<lb ed="#V"/>nisi sit proprius et intrinsecus. Unde magis principaliter in<lb ed="#V"/>tenditur 
+  				in frenefactiva aequivocatio quam frenum: quamvis quidam 
+  				<lb ed="#V"/>dicant oppositum moti propter hoc quod frenefacivus pa<lb ed="#V"/>rum 
+  				curat de aequitatione. Sed hoc non valet: quia in<lb ed="#V"/>quantum 
+  				frenefactiva magis intendit aequitationem et 
+  				<lb ed="#V"/>magis operatur propter aequitationem: quam propter fre<lb ed="#V"/>num: 
+  				licet inquantum est homo indigens pecunia pa<lb ed="#V"/>rum 
+  				curet de aequitationem sed de pecunia habneda pro fre<lb ed="#V"/>no. 
+  				Et ideo sicut dictum est illa propositio scilicet quod denominatio fit a fi<lb ed="#V"/>ne 
+  				principaliori veritatem habet si sit proprius finis et intrin<lb ed="#V"/>secus.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3781"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq3-d1e3515">Ad 2m</ref> dicendum: quod statui viae repugnat attingere fi<lb ed="#V"/>nem 
+  				ultimum: sed ei non repugnat attingere finem convenien<lb ed="#V"/>tem 
+  				tali statui: alioquin nullus habitus viae posset habe<lb ed="#V"/>re 
+  				aliquem finem a quo denominatur.</p>
+  			
+  			<p xml:id="hnl1prolq3-d1e3792"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq3-d1e3528">Ad 3m</ref> dicendum: quod supra 
+  				<lb ed="#V"/>theologiam viae est dare habitum notiorem vel nobiliorem et su<lb ed="#V"/>periorem 
+  				non quidem in via sed in patria scilicet lumen gloriae: 
+  				<lb ed="#V"/>quod vcdare possumus habitum gloriae. Cuius finis proprie 
+  				<lb ed="#V"/>est beatitudo patriae: quae beatitudo est finis communis per 
+  				<lb ed="#V"/>causalitatem omnium habituum et operationeum bonarum quae 
+  				<lb ed="#V"/>sunt in via.</p>
+  			
+  		</div>  
+  	</body>
+  </text>
+</TEI>

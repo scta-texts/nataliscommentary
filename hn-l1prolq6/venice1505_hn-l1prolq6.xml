@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 6</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-08-25">August 25, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="6-v"/><cb ed="#V" n="b"/> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq6">
+  			<head xml:id="hnl1prolq6-Hd1e3495">Librum I, Prologus, Quaestio 6</head>
+  			<head xml:id="hnl1prolq6-Hd1e3498" type="questionTitle">Utrum theologia subalternetur alicui scientiae</head>
+  			<p xml:id="hnl1prolq6-d1e3501"><lb ed="#V"/>Utrum theologia sub<lb ed="#V"/>alternetur 
+  				alicui principia sua a scientia beatorum: ergo subalter<lb ed="#V"/>natur 
+  				ei.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3509"><pc ana="#pilcrow"/>Item utitur ei quae probantur in meta<lb ed="#V"/>physica 
+  				ut principiis sicut isto quod est deum 
+  				<lb ed="#V"/>esse unum: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3517"><pc ana="#pilcrow"/>Item processus eius habet 
+  				<lb ed="#V"/>firmitatem per principia communica quae declarantur 
+  				<lb ed="#V"/>in metaphysica sicut quod impossibile est idem esse et non esse et consi<lb ed="#V"/>milia: 
+  				et sic idem quod prius.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3528"><lb ed="#V"/>Contra. Ipsa considerat optimum in toto ambitu en<lb ed="#V"/>tium. 
+  				ergo omnes aliae subalternantur ei: et 
+  				<lb ed="#V"/>ipsa per consequens nulli alii.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3536">Respondeo. Hic sunt duo declaranda.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3539"><pc ana="#pilcrow"/>Primum 
+  				<lb ed="#V"/>est quod importetur nomine subalternationis: et 
+  				<lb ed="#V"/>quot modis hoc convenit esse.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3547"><pc ana="#pilcrow"/>Secundum est applica<lb ed="#V"/>re 
+  				ista ad solutionem praesentis quaestionis.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3553"><lb ed="#V"/>Quantum ad principium sciendum est quod ipsum nomen subalterna<lb ed="#V"/>tionis 
+  				importat ut de se patet aliquid esse sub al<lb ed="#V"/>tero.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3561"><pc ana="#pilcrow"/>Sed aliquod potest esse multis modis sub altero. videlicet. sicut 
+  				<lb ed="#V"/>inferius sub superiori in ordine praedicamentali sicut homo sub animali: vel sicut mi<lb ed="#V"/>nus 
+  				nobile sub magis nobili: et pluribus aliis modis: hoc tamen 
+  				<lb ed="#V"/>ad praesens unam scientiam esse sub altera ponitur secundum dependentiam quamdam 
+  				<lb ed="#V"/>inquantum una scientia dependet ab alia quantum ad cognitionem saltem 
+  				<lb ed="#V"/>perfectam suorum principiorum. Conclusio enim unius scientiae non potest dire<lb ed="#V"/>cte 
+  				dependere et immediate ab alia scientia: nisi principia ex quibus con<lb ed="#V"/>cluditur 
+  				dependeant ab alia scientia. Quod autem una scientia dependeat 
+  				<lb ed="#V"/>ab alia quantum ad sua principia dupliciter est scilicet vel ex parte scibilis 
+  				<lb ed="#V"/>vel ex parte scientis. Ex parte autem scibilis non potest esse dependen<lb ed="#V"/>tia 
+  				nisi unum aliquo modo differat ab alio. hoc etiam potest esse du<lb ed="#V"/>pliciter. 
+  				Uno modo ita quod subiectum unius includat subiectum alterius cum additione: 
+  				<lb ed="#V"/>vel ita quod sint diversae res quarum una non includit aliam: licet depen<lb ed="#V"/>deant 
+  				abinvicem in aliquo causae. Si primo modo hoc est dupliciter: quia 
+  				<lb ed="#V"/>aut unum includit aliud: sicut inferius secundum ordinem essentialem inclu<lb ed="#V"/>dit 
+  				superius: sicut homo animal. Aut sicut pars in modo includit illud cuius 
+  				<lb ed="#V"/>est pars in modo: sicut linea visualis includit lineam. Si primo modo 
+  				<lb ed="#V"/>sit unum sub alio: non potest ibi esse subalternatio: quia illud quod conve<lb ed="#V"/>nit 
+  				inferiori contracto per differentiam essentialem secundum quod sic est contractum non potest 
+  				<lb ed="#V"/>probari per aliquod quod per se conveniat superiori. Unde quod convenit homini 
+  				<lb ed="#V"/>ut homo est non potest probari per aliquod quod per se conveniat animali per se 
+  				<lb ed="#V"/>quantum ad ea quae sunt propria homini sicut risibile vel aliquod tale: nec 
+  				<lb ed="#V"/>quantum ad quia est nec quantum ad propter quod est. Et quantum quidem ad pro<lb ed="#V"/>pter 
+  				quod est videtur esse planum: cum animal et rationale dicant aliquid 
+  				<lb ed="#V"/>unum per essentiam nec animal nec aliquod ei conveniens potest esse causa eius per 
+  				<lb ed="#V"/>quod habet homo quod sit rationalis: ut per hoc possit etiam esse causa eius quod convenit 
+  				<lb ed="#V"/>homini per rationale: sicut quantitas est causa subiective eius per quod aliquod est 
+  				<lb ed="#V"/>visibile: et illud quod sequitur quantitatem puta passiones lineae possunt 
+  				<lb ed="#V"/>esse causa alicuius varietatis circa ipsum visibile scilicet quod sic vel aliter 
+  				<lb ed="#V"/>videatur. Et si diceretur quod licet animal non sit causa rationalis potest tamen esse 
+  				<lb ed="#V"/>causa alicuius quod sequitur rationale puta huius quod est esse risibile: non 
+  				<lb ed="#V"/>valet: quia animalitas in homine non est aliud quam rationalitas. Et ideo po<lb ed="#V"/>nere 
+  				quod in homine animal non absolute sed contractum ut est homo est causa ta<lb ed="#V"/>lis 
+  				passionis secundum rem loquendo: non est ponere nisi solum rationa<lb ed="#V"/>le: 
+  				vel saltem unam rem quae est homo esse causam talis passionis. Et ideo 
+  				<lb ed="#V"/>id quod esset causa talis passionis in homine ita oriretur realiter ex princi<lb ed="#V"/>piis 
+  				rationalis sicut ex principiis animalis: sed non sic est in linea 
+  				<lb ed="#V"/>visuali: quia illud quod oritur ex principiis lineae non oritur ex princi<lb ed="#V"/>piis 
+  				illius per quod aliquod est visuale: sicut est curvitas vel rectitudo 
+  				<lb ed="#V"/>vel aliquid tale quae non habent ortum ex aliqua qualitate per quam est aliquid 
+  				<lb ed="#V"/>potentia visibile: per quae tamen aliqua variatio convenit circa modum quo vi<lb ed="#V"/>dentur 
+  				ea quae visu apprehenduntur.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3654"><pc ana="#pilcrow"/>Quantum est ad quia est probatur: quia 
+  				<lb ed="#V"/>illud quod est proprium speciei non posset probari per genus ut de se patet: quia per 
+  				<lb ed="#V"/>genus non potest probari illud de specie quod praedicatur de genere indefinite. 
+  				<lb ed="#V"/>Non enim sequitur: animal est tale: ergo homo est talis. Illud autem quod universaliter praedi<lb ed="#V"/>catur 
+  				de genere non est proprium speciei. Si autem sic accipiantur duo scibi<lb ed="#V"/>lia 
+  				quod unum se habeat sicut pars in modo ad aliud sicut li<lb ed="#V"/>nea 
+  				visualis vel aliquid tale: tunc cum tale contractum 
+  				<pb ed="#V" n="7-r"/><cb ed="#V" n="a"/><lb ed="#V"/>includat duo disparata vel diversa realiter: id quod est causa 
+  				<lb ed="#V"/>unius poterit esse causa alterius: sicut curvitas vel recti<lb ed="#V"/>tudo 
+  				poterit causare aliquid circa visibile inquantum est 
+  				<lb ed="#V"/>quantum per accidens. Et ideo propter quid aliquid videtur ma<lb ed="#V"/>gnum 
+  				vel parvum sic vel aliter redditur ex passionibus li<lb ed="#V"/>neae: 
+  				quia omne quod videtur: videtur secundum determinatum situm se ha<lb ed="#V"/>bentem 
+  				secundum habitudinem alicuius lineae ad visum. Est autem 
+  				<lb ed="#V"/>sciendum quod propter quod potest assignari vel respectu effectus im<lb ed="#V"/>mediate 
+  				et convertibilis cum causa sicut constitui minorem angu<lb ed="#V"/>lum 
+  				est proprius et immediatus effectus eius quod est lineam re<lb ed="#V"/>ctam 
+  				manente eadem basi magis protrahi: et tale propter quod non 
+  				<lb ed="#V"/>habet scientia subalterna reddere sed subalternans: unde quare 
+  				<lb ed="#V"/>quanto protrahuntur lineae rectae plus ab eadem basi faciunt 
+  				<lb ed="#V"/>minorem angulum non habet reddere prospectivus: sed geome<lb ed="#V"/>tra 
+  				habet hoc reddere: et perspectiva habet hoc suppone<lb ed="#V"/>re. 
+  				Sed bene potest perspectivus reddere propter quid per 
+  				<lb ed="#V"/>causam remotam: ut si quaeratur ab eo: quare quod a remotiori vide<lb ed="#V"/>tur 
+  				minus videtur: dicet quod videtur sub minori angulo: eo quod 
+  				<lb ed="#V"/>lineae quanto protrahuntur plus: tanto faciunt minorem angu<lb ed="#V"/>lum. 
+  				Unde lineas magis protractas facere minorem angulum 
+  				<lb ed="#V"/>ponit ut causam eius quod est quid a remotiori videri esse minus: 
+  				<lb ed="#V"/>quae quidem non est causa adaequata: quia in plus est lineas magis 
+  				<lb ed="#V"/>protractas constituere minorem angulum quam aliquid visibile 
+  				<lb ed="#V"/>a longe minus videri. Ulterius autem non dicit perspectivus 
+  				<lb ed="#V"/>propter quid lineae magis protractae faciunt minorem angulum: 
+  				<lb ed="#V"/>sed hoc facit geometer.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3729"><pc ana="#pilcrow"/>Alio modo potest aliqua scientia subal<lb ed="#V"/>ternari 
+  				ex parte obiecti sic: quia obiectum unius non includit 
+  				<lb ed="#V"/>obiectum alterius: sed sint res diversae quarum una dependet 
+  				<lb ed="#V"/>ex alia secundum aliquod genus causae: sicut praecipue patet in practi<lb ed="#V"/>cis. 
+  				Nam frenefactiva subalternatur equestri: quae sunt de di<lb ed="#V"/>versis 
+  				rebus ut de subiectis: quia subiectum unius est frenum prout 
+  				<lb ed="#V"/>factibile: subiectum autem alterius est actus equitandi. Frendum 
+  				<lb ed="#V"/>autem dependet ab equitatione secundum genus causae finalis: et fre<lb ed="#V"/>num 
+  				non sit nisi propter equitationem. utrum autem talis subal<lb ed="#V"/>ternatio 
+  				fiat secundum alias causas. Et utrum sit in aliis scientiis 
+  				<lb ed="#V"/>quam in practicis forte haberet longum tractatum: sed ad praesens 
+  				<lb ed="#V"/>hoc sufficiat quod scilicet subalternatio ex parte scibilis non potest esse 
+  				<lb ed="#V"/>nisi aliquo modo sint diversa subiecta subalternantis et subalterna<lb ed="#V"/>tae: 
+  				vel sicut pars in modo et suum totum: vel sicut diversae 
+  				<lb ed="#V"/>res. Quod enim eadem res et secundum eandem rationem sumptam ex parte 
+  				<lb ed="#V"/>rei pertineat ad diversos habitus cognitivos non videtur pro<lb ed="#V"/>venire 
+  				nisi ex diversitate sumpta ex parte scientis sive ex 
+  				<lb ed="#V"/>modo cognoscendi: quod quidem potest esse vel quia unus conside<lb ed="#V"/>rat 
+  				practice alius considerat speculative. Et ist modus 
+  				<lb ed="#V"/>sive sit possibilis sive non ad nunc dimittatur: quia non est ne<lb ed="#V"/>cessarius 
+  				ad propositum ut patebit. Vel quia unum et idem ab 
+  				<lb ed="#V"/>uno evidenter scitur et ab alio creditur: quia de re in se non po<lb ed="#V"/>test 
+  				habere evidentiam: sicut si rusticus assentiret credere 
+  				<lb ed="#V"/>ei quod <name ref="#Aristotle">philosophus</name> demonstrat et hoc modo non sit subalternatio scientiae ad 
+  				<lb ed="#V"/>scientiam sed opinionis vel fidei ad scientiam. Ex praemissis potest 
+  				<lb ed="#V"/>aliquo modo in generali patere quod exigitur ad subalernatio<lb ed="#V"/>nem 
+  				et qualiter una scientia subalternatur alteri. Ex dictis autem po<lb ed="#V"/>test 
+  				patere ratio trium modorum subalternationis qui communi<lb ed="#V"/>ter 
+  				ponuntur: unus prout est subiectum sub subiecto sicut pars in 
+  				<lb ed="#V"/>modo sub suo toto licet non quaelibet pars in modo ad hoc 
+  				<lb ed="#V"/>sufficiat sicut patet de linea curva et de linea recta quae ad eam<lb ed="#V"/>dem 
+  				scientiam pertinent. Secundus est prout finis est sub fine 
+  				<lb ed="#V"/>sicut patet de fine frenefactive et equestri. Tertius est pro<lb ed="#V"/>ut 
+  				modus continetur sub modo secundum quod ratio subalternan<lb ed="#V"/>di 
+  				accipitur ex parte scientis.</p>
+  				
+  			<p xml:id="hnl1prolq6-d1e3809"><lb ed="#V"/>Quantum ad secundum sciendum quod haec sunt tres quae<lb ed="#V"/>stiones. 
+  				<pc ana="#pilcrow"/>Prima est utrum theo<lb ed="#V"/>logia 
+  				subalternetur scientiae beatorum. <pc ana="#pilcrow"/>Secunda utrum sub 
+  				<lb ed="#V"/>alternetur alicui scientiae humanae. <lb ed="#V"/>Tertia utrum subal<lb ed="#V"/>ternet 
+  				sibi alias scientias humanas.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3828"><lb ed="#V"/>Ad primam ergo quaestionem quidam dicunt non esse ibi 
+  				<lb ed="#V"/>subalternationem. quidam vero dicunt quod immo.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3834"><pc ana="#pilcrow"/>Primi ponunt pro ratione quod subalternans debet dice<lb ed="#V"/>re 
+  				propter quid de eis de quibus subalternata dicit quia: sic non 
+  				<lb ed="#V"/>est hic: quia illa de quibus est theologia non habent causam: er<cb ed="#V" n="b"/>go 
+  				etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3844"><pc ana="#pilcrow"/>Item illud quod se habet ex parte scientis accidit 
+  				<lb ed="#V"/>scientiae: et per consequens secundum illud non debet iudicari de sub<lb ed="#V"/>alternatione 
+  				scientiarum. Differentia autem scientiae viae et patriae 
+  				<lb ed="#V"/>sumitur ex parte scientis: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3855"><pc ana="#pilcrow"/>Item si sunt duae cogni<lb ed="#V"/>tiones 
+  				de eodem una clara et alia obscura non oportet quod ob<lb ed="#V"/>scura 
+  				subalternetur clare: sicut patet de visione noctue et vi<lb ed="#V"/>sione 
+  				aequale respectu solis: quia visio obscura noctue non sub<lb ed="#V"/>alternatur 
+  				visioni clare aquile.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3867"><pc ana="#pilcrow"/>Sed ista non videntur co<lb ed="#V"/>gere 
+  				quin aliquo modo sit ibi subalternatio. Nam cum sub<lb ed="#V"/>alternatio 
+  				accipiatur secundum dependentiam unius cognitionis 
+  				<lb ed="#V"/>ab alia: cognitio illius cuius statui repugnat rem in se vi<lb ed="#V"/>dere 
+  				necessario dependet a cognitione illius qui habet eviden<lb ed="#V"/>tiam 
+  				de re in se: sic autem se habet viator ad cognitionem bea<lb ed="#V"/>torum: 
+  				et ideo cognitio viatoris de hiis quae transcendunt 
+  				<lb ed="#V"/>naturalem rationem dependet necessario a cognitione beatorum.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3886"><lb ed="#V"/>Et ista dependentia est ex parte scientis: nec est proprie sub<lb ed="#V"/>alternatio 
+  				scientiae ad scientiam sed fidei ad scientiam.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3892"><pc ana="#pilcrow"/>Ad primum 
+  				<lb ed="#V"/>ergo quod inducunt alii dicendum est quod maior habet veritatem in sub 
+  				<lb ed="#V"/>alternatione sumpta ex parte scibilis sicut in primo modo 
+  				<lb ed="#V"/>et secundo: non autem habet veritatem in subalternatione quae est ex 
+  				<lb ed="#V"/>parte sciens sicut in 3o modo: et talis subalternatio est in 
+  				<lb ed="#V"/>theologia respectu scientiae beatorum.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3906"><pc ana="#pilcrow"/>Ad secundum dicendum quod di<lb ed="#V"/>versificatio 
+  				quae convenit scientiae ex parte scientis non est acci<lb ed="#V"/>dentalis 
+  				scientiae prout comparatur ad scientem vel prout comparatur 
+  				<lb ed="#V"/>ad scibile in ordine ad scientem: licet autem accidat divinis quod a 
+  				<lb ed="#V"/>quacumque creatura cognoscantur: Supposito tamen quod cognoscan<lb ed="#V"/>tur 
+  				ab aliquo cuius conditioni: convenit etiam ea videre in 
+  				<lb ed="#V"/>se et ab alio cuius conditioni repugnat videre ea in se non 
+  				<lb ed="#V"/>per accidens: sed per se et ex natura rei: una cognitio ha<lb ed="#V"/>bet 
+  				differre ab alia et una habet per se dependere ab alia: si<lb ed="#V"/>cut 
+  				faciliter patet in proposito.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3929"><pc ana="#pilcrow"/>Ad tertium dicendum est quod quando 
+  				<lb ed="#V"/>cognitio obscura dependet a clara sicut patet in proposito: 
+  				<lb ed="#V"/>tunc obscura subalternatur clare: sic autem non est in exemplo 
+  				<lb ed="#V"/>supra posito: et ideo non est ad propositum.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3940"><pc ana="#pilcrow"/>Sed ad hoc pos<lb ed="#V"/>set 
+  				obici.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3946"><pc ana="#pilcrow"/>Primo quia principia scientiae subalternatae de<lb ed="#V"/>bent 
+  				esse posteriora principiis subalternantis: sic autem non 
+  				<lb ed="#V"/>est hic: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3954"><pc ana="#pilcrow"/>Secundo quia subalternans et subalterna<lb ed="#V"/>ta 
+  				non opponuntur nec sunt incompossibiles: scientiae viae et scientia 
+  				<lb ed="#V"/>patriae sunt incompossibiles: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3962"><pc ana="#pilcrow"/>Tertio quia videtur 
+  				<lb ed="#V"/>quod subalternentur penes causam finalem cum fit finis sub 
+  				<lb ed="#V"/>fine sicut speculatio viae sub speculatione patriae: et sic non 
+  				<lb ed="#V"/>est sibi subalternatio tantum secundum modum qui est ex parte scient<lb ed="#V"/>is.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3974"><pc ana="#pilcrow"/>Ad primum istorum dicendum quod in subalternatione quae 
+  				<lb ed="#V"/>est ex parte scientis non oportet quod principia subalternantis 
+  				<lb ed="#V"/>sint priora quantum ad rem cognitam: sed sufficit quod mo<lb ed="#V"/>dous 
+  				quo cognoscit subalternans sit prior et altior quam mo<lb ed="#V"/>dus 
+  				quo cognoscit subalternata: et sic est hic: quia habere evi<lb ed="#V"/>dentiam 
+  				rei in se est prius quam ei assentire ex revelatione vi<lb ed="#V"/>dentis: 
+  				et hoc simpliciter loquendo in diversis: licet in eo qui per<lb ed="#V"/>meritum 
+  				fidei attingit ad visionem fit prius credere quam vi<lb ed="#V"/>dere: 
+  				sed in subalternatione quae est ex parte scibilis est ali<lb ed="#V"/>ter.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e3997"><pc ana="#pilcrow"/>Ad secundum dicendum est quod in subalternatione quae 
+  				<lb ed="#V"/>est ex parte scibilis tantum: subalternans et subalternata non 
+  				<lb ed="#V"/>sunt incompossibiles: quia non includunt obscuritatem circa 
+  				<lb ed="#V"/>idem et respectu eiusdem. Sed in subalternatione quae est ex 
+  				<lb ed="#V"/>parte scientis ubi est dependentia non scientiae a scientia: sed 
+  				<lb ed="#V"/>fidei a scientia: quia quod unus videt alius tantum credit: est in<lb ed="#V"/>compossibilitas 
+  				inter subalternantem et subalternatam in eodem 
+  				<lb ed="#V"/>quia includunt claritatem et obscuritatem respectu eiusdem. 
+  				<lb ed="#V"/>Et ideo oportet vel quod sint in diversis: vel sit sunt in eodem 
+  				<lb ed="#V"/>quod hoc non sit simul: sed in diversis temporibus.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4021"><pc ana="#pilcrow"/>Ad 3m dicunt 
+  				<lb ed="#V"/>quidam quod unus est finis scientiae viae et scientiae patriae scilicet speculatio 
+  				<lb ed="#V"/>patriae et sic non est finis sub fine.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4029"><pc ana="#pilcrow"/>Sed hoc nihil est quia 
+  				<lb ed="#V"/>licet speculatio viae non sit ultimus finis theologiae nostrae est 
+  				<lb ed="#V"/>tamen finis proprius intra.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4037"><pc ana="#pilcrow"/>Et ideo dicendum est aliter quod ad hoc 
+  				<lb ed="#V"/>quod scientiae subalternetur scientiae secundum causam finalem non sufficit accipere 
+  				<lb ed="#V"/>finem sub fine ex parte scientiae: quia scilicet finis unius iuvat ad 
+  				<lb ed="#V"/>finem alterius: ut quia speculatio unius iuvet ad specu<lb ed="#V"/>lationem 
+  				alterius: immo oportet accipere finem sub fine ex 
+  				<lb ed="#V"/>parte scibilis sicut patet quod equitare est finis ipsius freni quod 
+  				<pb ed="#V" n="7-v"/><cb ed="#V" n="a"/><lb ed="#V"/>est subiectum frenefactive. Cuius ratio est quod scientia subalternans 
+  				<lb ed="#V"/>debet dicere propter quid illius quod considerat et cuius consideratio 
+  				<lb ed="#V"/>intenditur in scientia subalternata. Nulla autem scientia habet seipsam pro 
+  				<lb ed="#V"/>obiecto considerato: sed considerat aliquod scibile aliud a se. Et 
+  				<lb ed="#V"/>ideo subalternatio quae est ex parte scibilis non attenditur 
+  				<lb ed="#V"/>penes propter quid ipsius scientiae: sed penes propter quod ipsius scibilis. 
+  				<lb ed="#V"/>Non enim intendit reddere causam suiipsius: sed sui scibilis.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4069"><lb ed="#V"/>Ad secundam quaestionem utrum scilicet theologia subalter<lb ed="#V"/>netur 
+  				alicui scientiae humane dicendum est quod 
+  				<lb ed="#V"/>non: secundum quemcumque modum subalternationis supra positum: quia 
+  				<lb ed="#V"/>subiectum theologiae non se habet ad subiectum alicuius scientiae humanae ut pars 
+  				<lb ed="#V"/>in modo: nec etiam subiectum vel finis alicuius scientiae humanae est causa fi<lb ed="#V"/>nalis 
+  				subiecti theologiae: nec etiam ea quae sola fide tenet theo<lb ed="#V"/>logia 
+  				sunt evidentia in aliqua scientia humana: ergo secundum nullum 
+  				<lb ed="#V"/>praedictorum modorum subalternatur alicui scientiae humanae.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4088"><pc ana="#pilcrow"/>Sed 
+  				<lb ed="#V"/>contra hoc potest obiecti. <pc ana="#pilcrow"/>Primo quia supponit ea quae probantur 
+  				<lb ed="#V"/>in metaphysica ut deum esse unum vel simplicem et utitur eis ut 
+  				<lb ed="#V"/>suppositionibus.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4100"><pc ana="#pilcrow"/>Secundo quia metaphysicus dicit ut videtur 
+  				<lb ed="#V"/>propter quod de eo de quo dicit theologia quia: Nam metaphysicus 
+  				<lb ed="#V"/>dicit deum purum actum. Et hoc probat per hoc quod est primum principium 
+  				<lb ed="#V"/>quod non potest aliquo modo esse in potentia. Et ulterius per hoc pro<lb ed="#V"/>bat 
+  				quod sit simplex et sic de quibusdam aliis quae theologia sup<lb ed="#V"/>ponit.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4115"><pc ana="#pilcrow"/>Tertio quia principia metaphysicae cum fundentur super ens 
+  				<lb ed="#V"/>commune sunt priora principiis theologiae.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4121"><pc ana="#pilcrow"/>Ad primam istorum dicendum 
+  				<lb ed="#V"/>est quod theologia utitur quibusdam probatis in metaphysica ut sup<lb ed="#V"/>positionibus. 
+  				Sed theologus non supponit ea inquantum theolo<lb ed="#V"/>gus 
+  				quia sunt probata in metaphysica: sed quia a deo revelata. 
+  				<lb ed="#V"/>Unde non dependet ab ea.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4133"><pc ana="#pilcrow"/>Ad 2m dicunt quidam quod dato quod me<lb ed="#V"/>taphysica 
+  				<unclear>differet</unclear> propter quod de eo de quo scientia theologiae dicit quia: 
+  				<lb ed="#V"/>non tamen sequitur eam subalternari metaphysicae: quia aliter potest sci<lb ed="#V"/>re 
+  				suum quia quam per metaphysicam vel quam per propter quod ostensum in meta<lb ed="#V"/>physica.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4148"><pc ana="#pilcrow"/>Sed parum valet secundum illos qui ponunt quod subal<lb ed="#V"/>ternata 
+  				non accipit principia sua quantum ad quia est a scientia subalter<lb ed="#V"/>nante 
+  				sed assensum. Et sic ad evitandum subalternationem 
+  				<lb ed="#V"/>non sufficit dicere quod quia est unius: non accipiatur necessa<lb ed="#V"/>rio 
+  				a propter quid alterius.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4160"><pc ana="#pilcrow"/>Et ideo melius est dicere 
+  				<lb ed="#V"/>aliter scilicet quod metaphysica non dicit propter quid <sic>respectu scibi<lb ed="#V"/>bilis</sic> 
+  				theologiae. Quod autem dicitur quod immo quia metaphysicus probat 
+  				<lb ed="#V"/>deum actum esse purum propter hoc quod est primum principium et consilia dicendum quod ly 
+  				<lb ed="#V"/>propter non dicit ibi causam rei scitae: sed causam sciendi: quia virtus princi<lb ed="#V"/>piativa 
+  				dei on est causa suae purae actualitatis nec econverso licet 
+  				<lb ed="#V"/>per unum possit sciri vel inferri alterum.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4180"><pc ana="#pilcrow"/>Ad 3m dicendum quod est 
+  				<lb ed="#V"/>quod principia metaphysicae non sunt priora principiis theologiae si<lb ed="#V"/>cut 
+  				causa est prior suo effectu: sive sicut dicens propter quid ipsius rei 
+  				<lb ed="#V"/>scitae est prius ipso dicente quia: sed dicuntur priora quia communius et prius 
+  				<lb ed="#V"/>cadunt in conceptione intellectus sicut prius est substantiam esse qualibet quam 
+  				<lb ed="#V"/>hominem esse album: non autem sicut prius est lineas magis protrahi 
+  				<lb ed="#V"/>quam angulum minorem constitui. Prioritas autem talis quae non est nisi 
+  				<lb ed="#V"/>quia propositio est in terminis communioribus non sufficit ad subalterna<lb ed="#V"/>tionem.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4202"><pc ana="#pilcrow"/>Sed contra hoc posset obici: quia saltem quo ad aliqua scientia 
+  				<lb ed="#V"/>naturalis dicit propter quid de quibus theologia dicit quia: sicut theologia 
+  				<lb ed="#V"/>dicit quod christus comedebat et bibebat: sed propter quid comedebat 
+  				<lb ed="#V"/>vel magis quando indigebat istis habet naturalis philosophus dicere qui tractat 
+  				<lb ed="#V"/>de nutrimento et eius causa.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4214"><pc ana="#pilcrow"/>Ad hoc dicendum quod ad subalterna<lb ed="#V"/>tionem 
+  				non sufficit quod aliqua scientia dicat propter quid respectu cuiuscum<lb ed="#V"/>que 
+  				considerati in illa scientia: sed oportet quod hoc fiat respectu principa<lb ed="#V"/>liter 
+  				considerati. Nunc autem theologia non intendit principaliter con<lb ed="#V"/>siderare 
+  				quomodo filius dei supposito quod fit homo indigeret nutrimen<lb ed="#V"/>to 
+  				vel aliquid aliud simile: immo intendit principaliter considerare quomodo 
+  				<lb ed="#V"/>filius dei sit homo: et quomodo per ea quae passus est in humanitate as<lb ed="#V"/>sumpta 
+  				redemit mundum: respectu quorum nulla scientia saltem 
+  				<lb ed="#V"/>humana dicit propter quid: licet dicat propter quid respectu alicuius minus 
+  				<lb ed="#V"/>principaliter considerati: sicut respectu huius quod est ipsum indigere 
+  				<lb ed="#V"/>alimento vel aliquo tali: ad hoc respectu istorum theologia dicit 
+  				<lb ed="#V"/>causam altiorem quam philosophia naturalis scilciet quare decuit eum assumere talia: propter 
+  				<lb ed="#V"/>restaurationem nostram. unde etiam talia accepti non sicut regulam sed ma<lb ed="#V"/>gis: 
+  				quasi instrumentaliter subservientia et quasi a subserviente.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4246"><lb ed="#V"/>Ad tertiam quaestionem dicunt quidam quod theologia subalter<lb ed="#V"/>nat 
+  				sibi alias: tum quia determinata ab aliis 
+  				<lb ed="#V"/>assumit ad obsequium suum. tum quia dicit causam eorum quae determi<cb ed="#V" n="a"/><lb ed="#V"/>nantur 
+  				in aliis scientiis dum assumit et ostendit quod omnia quae fiunt 
+  				<lb ed="#V"/>a natura et ab arte fiunt propter dei voluntatem: quia scilicet deus vult.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4259"><pc ana="#pilcrow"/>Sed 
+  				<lb ed="#V"/>hoc non videtur bene dictum et hoc patet dicurrendo singulos mo<lb ed="#V"/>dos 
+  				subalternationis: quia ibi non potest esse primus modus cum 
+  				<lb ed="#V"/>nullius scientiae humane subiectum pars fit in modo respectu dei nec pos<lb ed="#V"/>sit 
+  				esse. Nec etiam tertius modus potest ibi esse: quia scientia theologiae 
+  				<lb ed="#V"/>non habet claram evidentiam de illis de quibus scientiae humanae habent cre<lb ed="#V"/>dulitatem: 
+  				cum theologia sua principia quae sibi sunt propria sola fide te<lb ed="#V"/>neat 
+  				ut dictum est supra: nec fit de eodem cum aliis scientiis huma<lb ed="#V"/>nis. 
+  				Nec etiam hoc potest esse 2o modo de quo magis videtur et praecipue 
+  				<lb ed="#V"/>quantum ad alias scientias a metaphysica: quia deus est causa efficiens 
+  				<lb ed="#V"/>et finalis omnium rerum et creaturarum de quibus determinant aliae scientiae 
+  				<lb ed="#V"/>a metaphysica: quia metaphysica non habet pro per se obiecto ens 
+  				<lb ed="#V"/>creatum: sed ens generaliter sumptum: aliae autem habent ens creatum: tamen 
+  				<lb ed="#V"/>hoc non obtante scientiae humanae non subalternantur theologiae 2o 
+  				<lb ed="#V"/>modo subalternationis. Et hoc patet.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4293"><pc ana="#pilcrow"/>Primo quia scientiae humanae non 
+  				<lb ed="#V"/>habent necesse accipere illud propter quid a theologia: quia id quod per inven<lb ed="#V"/>tionem 
+  				rationis potest sciri non oportet accipi a theologia quae soli reve<lb ed="#V"/>lationum 
+  				principaliter inititur: sed propter quid quod competit rebus in ordine 
+  				<lb ed="#V"/>ad deum ex investigatione rationis potest haberi: cum philosophi probent eviden<lb ed="#V"/>ter 
+  				deum esse primam causam omnium et agere per voluntatem et intellectum et 
+  				<lb ed="#V"/>esse etiam ultimum finem prout dicitur <ref>2o <title ref="#deAnima">de anima</title></ref> quod omnia intendunt perpe<lb ed="#V"/>tuare 
+  				suum esse saltem secundum speciem propter imitationem esse divini: propter quod 
+  				<lb ed="#V"/>dicit omnia agere: ideo etc. Licet in hoc philosophi differant a fidelibus: quia 
+  				<lb ed="#V"/>fideles dicunt deum ista velle libro arbitrio: sed philosophi dicunt velle naturaliter.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4321"><lb ed="#V"/><pc ana="#pilcrow"/>Secundo hoc patet ex modo cognoscendi: quia ad <sic>subalternam</sic> scientiam 
+  				<lb ed="#V"/>proprie dictam non sufficit quod aliquis dicat habenti talem scientiam quod cre<lb ed="#V"/>dat 
+  				aliquid esse causam sui principii de quo dicit quia: immo oportet quod 
+  				<lb ed="#V"/>faciat evidens illud propter quid: sed hoc non potest facere theologia: 
+  				<lb ed="#V"/>ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4339"><pc ana="#pilcrow"/>Tertio quia theologia non dicit protper quid respectu 
+  				<lb ed="#V"/>aliarum per causam propinquam: sed per causam remotam.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4345"><pc ana="#pilcrow"/>Quarto specia<lb ed="#V"/>liter 
+  				ostenditur hoc de practicis humanis de quibius magis videtur: quia 
+  				<lb ed="#V"/>licet omnis bona operatio sit ordinabilis in finem qui est beat vita: 
+  				<lb ed="#V"/>non tamen scientiae humanae considerant ens ut in ordine ad finem illum: sed 
+  				<lb ed="#V"/>ut in ordine ad finem quem demonstrant vel demonstrative probant scilicet 
+  				<lb ed="#V"/>in ordine ad perfectionem vitae humanae et ulterius in ordine ad 
+  				<lb ed="#V"/>deum modo quo totum universum naturaliter ordinatur in deum prout 
+  				<lb ed="#V"/>ostendit <ref><name ref="#Aristotle">philosophus</name> 12 <title ref="#Aristotle">metaphysicae</title></ref> ordinem universi secundum suas partes 
+  				<lb ed="#V"/>esse propter ordinem universi in deum sicut exercitus est propter ducem. 
+  				<lb ed="#V"/>Illa autem scientia quae non considerat de sua praxi nisi in ordine ad 
+  				<lb ed="#V"/>finem sive demonstrative sive evidenter notum non subalternatur ei quae 
+  				<lb ed="#V"/>tantum tractat de fine credito: ideo etc.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4380"><pc ana="#pilcrow"/>Ad primum ergo dicendum quod ille 
+  				<lb ed="#V"/>famulatus quo aliqua scientia potest se iuvare de aliquibus notificatis in 
+  				<lb ed="#V"/>alia scientia non subalternat illam aliam scientiam scientiae utenti propter talem usum: 
+  				<lb ed="#V"/>sed ille famulatus in quo subiectum scientiae inferioris continetur sub subiecto 
+  				<lb ed="#V"/>superioris sicut finis sub fine in ordine secundum quem finis inferior 
+  				<lb ed="#V"/>consideratur sub fine superiori sicut se habet frenum ad usum equi<lb ed="#V"/>tandi: 
+  				talis famulatus facit subalternationem et talis non est 
+  				<lb ed="#V"/>inter theologiam et alias scientias humanas. Ex hoc enim quod 
+  				<lb ed="#V"/>una scientia utitur notificatis in alia scientia ad probandum aliquid a 
+  				<lb ed="#V"/>posteriori et quia est: non facit illam a qua accipit esse subalter<lb ed="#V"/>natam: 
+  				sed potius faceret eam esse subalternantem si uteretur 
+  				<lb ed="#V"/>eis quae accipit ab ea ad probandum propter quid de suis principiis.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4407"><lb ed="#V"/><pc ana="#pilcrow"/>Ad 2m dicendum quod de aliis de quibus aliae scientiae humanae dicunt 
+  				<lb ed="#V"/>quia theologia non dicit propter quid cum evidentia qualis modus cogno<lb ed="#V"/>scendi 
+  				est in aliis scientiis: sed solum fide hoc tenet. Nec dicit 
+  				<lb ed="#V"/>propter quid per causam propriam nec scientiae aliae ad suam perfectionem 
+  				<lb ed="#V"/>secundum quod eis competit habent necesse accipere suum propter quid a theo<lb ed="#V"/>logia: 
+  				immo reducunt in suum propter quid etiam primum secundum quod eis 
+  				<lb ed="#V"/>competit per deductionem rationis naturalis. Et ideo in nullo sub<lb ed="#V"/>alternantur 
+  				ei. Ex ratione enim naturali potest medicus scire quod deus 
+  				<lb ed="#V"/>vult reubarbarum coleram purgare etiam si theologia hoc 
+  				<lb ed="#V"/>non diceret et philosophi sciverunt voluntatem dei esse 
+  				<lb ed="#V"/>causam omnium aliorum.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4433"><lb ed="#V"/>Ad primum ergo factum ad principale dicendum quod 
+  				<lb ed="#V"/>theologia subalternatur scientiae bea<lb ed="#V"/>torum 
+  				sicut fides subalternatur scientiae: et est ibi tertius modus 
+  				<lb ed="#V"/>subalternationis.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4443"><pc ana="#pilcrow"/>Ad 2m dicendum quod theologia utitur quibus<lb ed="#V"/>dam 
+  				probatis in metaphysica: sed non utitur eis ut probatis in me<lb ed="#V"/>taphysica 
+  				accipiendo ea a metaphysica: sed accipit ea ut reve<pb ed="#V" n="8-r"/><cb ed="#V" n="a"/><lb ed="#V"/>lata 
+  				a deo. Et dato etiam quod acciperet aliqua metaphysi<lb ed="#V"/>ca 
+  				in obsequium sui: non tamen sequeretur quod subalternaretur ei nisi 
+  				<lb ed="#V"/>essent talia quae dicerent propter quid respectu principiorum theo<lb ed="#V"/>logiae 
+  				quae sunt articuli quod esse non potest.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4463"><pc ana="#pilcrow"/>Ad 3m dicendum quod pro<lb ed="#V"/>cessus 
+  				omnis scientiae supponit et aliquo modo firmitatem habet per principia 
+  				<lb ed="#V"/>principia quae tractantur in metaphysica. Sed illa non sunt 
+  				<lb ed="#V"/>principia essendi rerum consideratarum in aliis scientiis: sed sunt 
+  				<lb ed="#V"/>principia cognoscendi vel inferendi. Nec sufficiunt per se 
+  				<lb ed="#V"/>nisi coassumptis propriis principiis. Talia autem principia 
+  				<lb ed="#V"/>supponi ab aliis scientiis: non facit subalternationem earum ad 
+  				<lb ed="#V"/>metaphysicam. Nam subalternatio attenditur penes propter quid 
+  				<lb ed="#V"/>quod dicit causam ipsius rei scibilis: non autem penes illud quod tantum 
+  				<lb ed="#V"/>dicit principium innotescendi vel inferendi.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4486"><pc ana="#pilcrow"/>Notandum etiam est 
+  				<lb ed="#V"/>quod principia aliarum scientiarum reducuntur ad principia metaphy<lb ed="#V"/>sicae 
+  				sicut ad priora per communitatem: sed non sicut ad princi<lb ed="#V"/>pia 
+  				priora quia probantia: quia principia metaphysicae non suffi<lb ed="#V"/>ciunt 
+  				probare per se aliquam propositionem propriam inferioris scientiae. 
+  				<lb ed="#V"/>Unde ista homo est albus reducitur ad hanc scilicet substantia est qualis si<lb ed="#V"/>cut 
+  				ad priorem per communitatem: sed non sicut ad probantem ipsam.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4503"><lb ed="#V"/><pc ana="#pilcrow"/>Ad argumentum pro altera parte dicendum est quod ad hoc quod aliqua 
+  				<lb ed="#V"/>scientia subalternet sibi alias non sufficit quod consideret optimum: sed 
+  				<lb ed="#V"/>oportet cum hoc quod subalternatae considerent ea quae considerant in or<lb ed="#V"/>dine 
+  				ad illud optimum et non qualitercumque: sed in ordine ad ipsum 
+  				<lb ed="#V"/>prout habet considerari in scientia subalternante. Sic autem non est in pro<lb ed="#V"/>posito 
+  				ut patuit.</p>
+  			
+  			<p xml:id="hnl1prolq6-d1e4519"><pc ana="#pilcrow"/>Notandum autem hoc et propter istam quaestionem et propter 
+  				<lb ed="#V"/>primam: quia scientia subalternata necessario habet evidentiam saltem: quia 
+  				<lb ed="#V"/>suorum principiorum et absque discursu: quia si non habet evidentiam de 
+  				<lb ed="#V"/>quia est suorum principiorum non erit scientia ut supra dictum est: sed erit 
+  				<lb ed="#V"/>tantum habitus creditivus. Nam ut dictum est subalternatio quae 
+  				<lb ed="#V"/>est ex parte scientiis non est subalternatio scientiae ad scientiam: sed fi<lb ed="#V"/>dei 
+  				ad scientiam. Illam autem evidentiam aut habet ut conclusam ex 
+  				<lb ed="#V"/>aliis aut absque discursu et sicut ex sensu habitam. Primo modo 
+  				<lb ed="#V"/>esse non potest: quia omnis scientia resolvitur usque ad aliqua quae non sunt 
+  				<lb ed="#V"/>conclusa et quae absque discursu accipit. Unde si ponis quod sua 
+  				<lb ed="#V"/>principia non accipiat nisi cum deductione ex aliis iam po<lb ed="#V"/>nis 
+  				principia non esse principia slatem prima et huius scientiae subal<lb ed="#V"/>ternatae. 
+  				Nam primum principium scientiae est ultra quod non descendit: et si 
+  				<lb ed="#V"/>non descendit ultra ipsum cum oporteat ipsum esse evidens oportet 
+  				<lb ed="#V"/>quod sit evidens ex se et per se saltem quantum ad quia est. Et ideo ex 
+  				<lb ed="#V"/>hoc sequitur quod cognitio principiorum scientiae subalternatae quan<lb ed="#V"/>tum 
+  				ad quia est non dependet a subalternante. Et ideo ubi est 
+  				<lb ed="#V"/>subalternatio proprie ex parte scibilis oportet quod hoc fit inquan<lb ed="#V"/>tum 
+  				scientia subalternans dicit propter quid de illo de quo subalter<lb ed="#V"/>nata 
+  				sine adminiculo subalternantis habet quia. Et ideo respon<lb ed="#V"/>sio 
+  				prima quae fuit data contra rationem illorum qui nituntur pro<lb ed="#V"/>bare 
+  				quod subalternata non habet nisi solam fidem de suis prin<lb ed="#V"/>cipiis 
+  				est secundum veritatem scilicet quod principia subalternatae sunt no<lb ed="#V"/>ta 
+  				per se et ad sensum quantum ad quia est. Sed sunt conclusiones quan<lb ed="#V"/>tum 
+  				ad propter quid est. Alia autem responsio magis est ad hominem.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

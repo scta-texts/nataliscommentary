@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 2</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-08-12">August 12, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<!-- 
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/> -->
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="3-v"/><cb ed="#V" n="b"/> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq2">
+  			<head xml:id="hnl1prolq2-Hd1e99">Librum I, Prologus, Quaestio 2</head>
+  			<head xml:id="hnl1prolq2-Hd1e102" type="questionTitle">Utrum speculativum et practicum distinguantur penes obiecta</head>
+  			
+  			<p xml:id="hnl1prolq2-d1e105"><lb ed="#V"/>Utrum speculativum 
+  				<lb ed="#V"/>et practicum distinguantur penes obiecta.</p>
+  			
+  			<p xml:id="hnl1prolq2-eaqpee"><lb ed="#V"/>et arguitur quod non: quia aut hoc est penes obie<lb ed="#V"/>cta 
+  				formalia aut penes materialia: non penes 
+  				materialia quia materia non distinguit: nec pe<lb ed="#V"/>nes 
+  				formalia quia distinctio formalis obie<lb ed="#V"/>ctorum 
+  				reducitur in diversitatem potentiarum. 
+  				<lb ed="#V"/>Practicum autem et speculativum pertinent ad eandem poten<lb ed="#V"/>tiam: 
+  				ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e124"><pc ana="#pilcrow"/>Praeterea prius non habet distingui per 
+  				<lb ed="#V"/>posterius: sed obiectum scientiae practicae est posterius ipsa 
+  				<lb ed="#V"/>scientia practica cum sit effectus eius: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e132"><pc ana="#pilcrow"/>Praeter<lb ed="#V"/>ea 
+  				nihil agit nisi sit prius motum a fine: sed ut dictum est sci<lb ed="#V"/>entia 
+  				practica est causa efficiens sui obiecti: ergo prius respicit 
+  				finem quam suum obiectum: et per consequens a fine habet distin<lb ed="#V"/>gui 
+  				ut a priori et non ab obiecto.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e143"><pc ana="#pilcrow"/>Praeterea practica et 
+  				speculativa frequenter considerant idem: sed hoc non esset 
+  				si distinguerentur penes obiecta: quia tunc non considerarent de 
+  				eodem: ergo etc. Minor patet: maiorem probo. <pc ana="#pilcrow"/>Primo quia 
+  				<lb ed="#V"/>moralis et naturalis quorum unus est practicus et alius specula<lb ed="#V"/>tivus: 
+  				considerant de potentiis animae. <pc ana="#pilcrow"/> Secundo quia machina<lb ed="#V"/>tor 
+  				et geometra considerant lineam rectam et rectum angulum. 
+  				<lb ed="#V"/><pc ana="#pilcrow"/>Tertio quia <ref>3o <title ref="#deAnima">de anima</title></ref> dicitur quod intellectus speculativus 
+  				<lb ed="#V"/>extensione sit practicus quod non posset esse nisi essent circa 
+  				<lb ed="#V"/>idem.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e170"><pc ana="#pilcrow"/>Praeterea qui considerat operabile modo quo non 
+  				<lb ed="#V"/>est operabile est speculativus: et qui considerat ipsum modo 
+  				<lb ed="#V"/>quo est operabile est practicus: sed quodlibet operabile 
+  				<lb ed="#V"/>est utroque modo considerabile: ergo de operabili potest esse 
+  				<lb ed="#V"/>scientia practica et speculativa: et per consequens practicum et spe<lb ed="#V"/>culativum 
+  				non distinguuntur penes obiecta. Maior suppo<lb ed="#V"/>nitur: 
+  				minor probatur. Nam qui considerat operabile in universa<lb ed="#V"/>li 
+  				considerat ipsum modo quo non est operabile: quia nihil est ope<pb ed="#V" n="4-r"/><cb ed="#V" n="a"/><lb ed="#V"/>rabile 
+  				in universali: ergo quodlibet operabile potest considerari mo<lb ed="#V"/>do 
+  				quo non est operabile: et sequitur quod talis operatio vel consi<lb ed="#V"/>deratio 
+  				erit speculativa.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e197"><pc ana="#pilcrow"/>Praeterea consideratio quae est 
+  				de operabili dividendo et diffiniendo est speculativa: sed de 
+  				omni operabili est consideratio isto modo: ergo de quolibet opera<lb ed="#V"/>bili 
+  				potest esse scientia speculativa: quod non esset verum si pra<lb ed="#V"/>ctica 
+  				et speculativa distinguantur penes obiecta.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e205"><lb ed="#V"/>Respondeo. Ad hoc dicunt quidam quod scientiae distin<lb ed="#V"/>guuntur 
+  				tripliciter scilicet per obiecta et haec est 
+  				<lb ed="#V"/>essentialis distinctio: secundum substantia prout aliquis quandoque scit in ha<lb ed="#V"/>bitu 
+  				quandoque in actu: et penes fines: et haec est distinctio in pra<lb ed="#V"/>ctica 
+  				et speculativa: et est ut dicunt distinctio accidentalis. Si<lb ed="#V"/>cut 
+  				dicitur homo invitiosum et virtuosum. Quod autem distinctio 
+  				<lb ed="#V"/>speculativi et practici non accipiantur penes obiecta: probant 
+  				<lb ed="#V"/>per rationes iam positas.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e224"><pc ana="#pilcrow"/>Quamvis autem possent contra haec 
+  				<lb ed="#V"/>plura obici tamen nunc sufficiat adducere contra istam positio<lb ed="#V"/>nem 
+  				duas rationes: Quarum prima talis est. Si scientia divi<lb ed="#V"/>ditur 
+  				per practicam et speculativam accidentaliter sicut homo per 
+  				<lb ed="#V"/>vitiosum et virtuosum sequitur quod eadem scientia quandoque erit 
+  				<lb ed="#V"/>practica quandoque speculativa: hoc autem est satis inconveniens: 
+  				quia tunc moralis philosophica quandquue esset speculativa immo nec talis 
+  				<lb ed="#V"/>divisio caderet sub arte sicut nec divisio hominis in album et 
+  				<lb ed="#V"/>nigrum vel longum vel breve: ergo etc. Si autem ista distin<lb ed="#V"/>ctio 
+  				est essentialis et per se cum secundum eos distinctio essentia<lb ed="#V"/>lis 
+  				scientiarum sit per obiecta sequitur quod distinctio practici et 
+  				<lb ed="#V"/>speculativi sit per obiecta: et sequitur idem si ponatur quod pra<lb ed="#V"/>cticum 
+  				et speculativum sint per se accidentia scientiarum: quia ta<lb ed="#V"/>lia 
+  				accidentia per se habent distingui ab eo quod est causa per se di<lb ed="#V"/>stinctionis 
+  				subiectorum.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e256"><pc ana="#pilcrow"/>Secunda ratio talis est. Sicut in 
+  				<lb ed="#V"/>alio genere causae: ita et in causa finali oportet dare aliquos fi<lb ed="#V"/>nes 
+  				per se et proprios scientiarum a quibus ex aptitudine sua 
+  				<lb ed="#V"/>habent denominari penes quos habent scientiae per se distingui: sed ta<lb ed="#V"/>les 
+  				fines sunt practicum et speculativum: ergo distinctio scientia<lb ed="#V"/>rum 
+  				penes practicum et speculativum est distinctio per se et 
+  				<lb ed="#V"/>essentialis ipsarum scientiarum: sed talis distinctio quae est per seipsarum 
+  				<lb ed="#V"/>scientiarum est penes obiecta ut dicunt: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e276"><lb ed="#V"/><pc ana="#pilcrow"/>Et ideo aliter videtur esse dicendum. 
+  				<lb ed="#V"/><pc ana="#pilcrow"/>Ad cuius evidentiam primo distinguendum est de finibus. 
+  				<lb ed="#V"/>Unde sciendum quod duplex est finis scilicet per se et per accidens. 
+  				<lb ed="#V"/>Finis per se alicuius rei dicitur illud bonum ad quod per se 
+  				<lb ed="#V"/>habet ordinem sicut finis domus est inhabitatio. Finis per 
+  				<lb ed="#V"/>accidens est illud ad quod res non habet ordinem ex natura sua: 
+  				<lb ed="#V"/>sed de facto ordinatur ad illud ab eo qui illa re utitur: sicut si 
+  				<lb ed="#V"/>aliquis ordinet domum ad pompam vel ad abscondendum la<lb ed="#V"/>trones 
+  				vel aliquid tale. Primus finis solet vocari finis 
+  				<lb ed="#V"/>operis sive ipsius rei: sed secundus solet vocari finis ope<lb ed="#V"/>rantis 
+  				sive ipsius utentis re. Ulterius finis per se distinguitur: 
+  				<lb ed="#V"/>quia est finis qui est res et est finis qui est assecutio rei: sicut 
+  				<lb ed="#V"/>pecunia est finis avari ut res sed receptio vel possessio eius 
+  				<lb ed="#V"/>est finis sicut assecutio rei. Ulterius dividitur finis in communem 
+  				<lb ed="#V"/>et proprium et intrinsecum et extrinsecum. Sed hoc ad nunc non oportet persequi.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e312"><lb ed="#V"/><pc ana="#pilcrow"/>Secundo ponendae sunt quaedam suppositiones quarum prima est quod 
+  				<lb ed="#V"/>fines scientiarum ut assecutiones sunt operationes earum quibus 
+  				<lb ed="#V"/>attingunt sua obiecta: quia cum scientiae sint habitus disponen<lb ed="#V"/>tes 
+  				intellectum ad attingendum prompte et faciliter et delecta<lb ed="#V"/>biliter 
+  				suum obiectum: oportet quod scientiae ordinentur ad operationes 
+  				<lb ed="#V"/>per quas intellectus prompte et faciliter attingat sua obie<lb ed="#V"/>cta.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e330"><pc ana="#pilcrow"/>Secunda suppositio est: quia obiectum est finis scientiae ut res: quia 
+  				<lb ed="#V"/>obiectum est res quam quis assequitur per operationem scientiae.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e336"><lb ed="#V"/><pc ana="#pilcrow"/>Tertia suppositio est: quia scientia non dicitur practica ex ho quod est cau<lb ed="#V"/>sa 
+  				alicuius operationis. Nam omnis scientia est causa alicuius opera<lb ed="#V"/>tionis: 
+  				sed dicitur directe practica quae est causa efficiens sui 
+  				<lb ed="#V"/>obiecti: ita quod scientia speculativa habet unam operationem tantum scilicet 
+  				<lb ed="#V"/>elicitam puta scire vel speculari. Scientia autem practica habet 
+  				<lb ed="#V"/>praeter operationem elicitam operationem imperatam quae vel est eius 
+  				<lb ed="#V"/>obiectum sicut operatio cytharizandi est obiectum artis 
+  				<lb ed="#V"/>cytharizative: vel per ipsam est causa obiecti sicut do<lb ed="#V"/>mificativa 
+  				per domificationem quae est actus imperatus 
+  				<lb ed="#V"/>ab arte domificativa ars domificativa est causa domus.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e360"><lb ed="#V"/><pc ana="#pilcrow"/>Tertio ponendae sunt conclusiones probandae quarum prima est: quod pra<pb ed="#V" n="4-r"/><cb ed="#V" n="b"/><lb ed="#V"/>cticam 
+  				et speculativum distinguuntur immediate penes fines 
+  				<lb ed="#V"/>quae sunt assecutiones scilicet operationes quibus attingunt obie<lb ed="#V"/>cta.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e373"><pc ana="#pilcrow"/>Secunda conclusio est: quod praedicta distinctio primordialiter 
+  				<lb ed="#V"/>et radicaliter accipiatur penes obiecta quae sunt finis ut res. 
+  				<lb ed="#V"/>Prima patet sic: quia speculativa ab actu speculandi sive consi<lb ed="#V"/>derandi 
+  				qui est actus a scientia elicitus: sed practica dicitur recte 
+  				<lb ed="#V"/>ab actu imperato per quem scientia practica efficit suum obie<lb ed="#V"/>ctum 
+  				quando ipsa operatio imperata non est ipsum obiectum: sed prae<lb ed="#V"/>dictae 
+  				operationes sunt assecutiones obiectorum: nam intellectus 
+  				<lb ed="#V"/>per speculari assequitur obiectum ut cognitum tantum: per operatio<lb ed="#V"/>nem 
+  				autem imperatam assequitur ipsum ut effectum: ergo practicum 
+  				<lb ed="#V"/>et speculativum distinguuntur penes fines quae sunt assecutio<lb ed="#V"/>nes 
+  				et hoc immediate sicut penes illa a quibus denominantur 
+  				<lb ed="#V"/>prout aliquod denominatur a fine.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e401"><pc ana="#pilcrow"/>Secunda conclusio satis faciliter 
+  				<lb ed="#V"/>patet: quia sicut iam dictum est scientia dividitur in practicum et 
+  				<lb ed="#V"/>speculativum penes actus quibus intellectus sequitur sua 
+  				<lb ed="#V"/>obiecta: sed assecutiones obiectorum dividuntur per se secundum con<lb ed="#V"/>ditiones 
+  				per se ipsorum obiectorum: sive penes ipsa obiecta: 
+  				nam secundum naturam obiectorum nata sunt sic vel aliter attingi: er<lb ed="#V"/>go 
+  				practicum et speculativum dividuntur primordialiter et radi<lb ed="#V"/>caliter 
+  				penes obiecta: et huic concordat dictum commune dicitur quod scientiae di<lb ed="#V"/>stinguntur 
+  				per actus assecutionis obiectorum: et actus per obiecta: ideo etc.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e420"><lb ed="#V"/><pc ana="#pilcrow"/>Quarto removenda est quaedam cavillatio quae posset fieri. 
+  				<lb ed="#V"/>Posset enim aliquis dicere quod operationes penes quas distin<lb ed="#V"/>guuntur 
+  				practicum et speculativum sunt illae quas intendit utens 
+  				<lb ed="#V"/>in scientia: et ideo si intendit uti ad aliquod considerandum erit spe<lb ed="#V"/>culativa 
+  				si ad efficiendum obiectum: erit practica.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e433"><pc ana="#pilcrow"/>Sed 
+  				<lb ed="#V"/>istud patet non valere ex distinctione supra posita: quia hic non 
+  				<lb ed="#V"/>intendimus loqui de fine per accidens quem utens potest inten<lb ed="#V"/>dere. 
+  				Alioquin theologia posset dici lucrativa quia aliquis 
+  				<lb ed="#V"/>potest per eam lucrum attingere vel etiam episcopativa: quia 
+  				<lb ed="#V"/>aliquis potest per eam intendere episcopari: sed intendimus de 
+  				<lb ed="#V"/>fine ad quem ex natura per seipsa habet ordinem: et hoc 
+  				<lb ed="#V"/>est respectu operabilium operari: respectu autem speculabilium spe<lb ed="#V"/>culari. 
+  				Unde qualitercumque habens scientiam de operabi<lb ed="#V"/>libus 
+  				secundum quod huiusmodi intendit uti ea semper est practica.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e456"><lb ed="#V"/><pc ana="#pilcrow"/>Quinto ostendendum est quod adversarii incidunt in idem: quia 
+  				<lb ed="#V"/>licet scientia speculativa possit esse de eo quod est operabile quando 
+  				<lb ed="#V"/>non consideratur secundum modum quo est operabile: tamen dicunt de opera<lb ed="#V"/>bili 
+  				secundum quod est operabile non est scientia speculativa sed pra<lb ed="#V"/>ctica. 
+  				Constat autem quod considerare de operabili non secundum modum 
+  				<lb ed="#V"/>quo est operabile non est considerare operabile formaliter nec 
+  				<lb ed="#V"/>formale obiectum talis considerationis est operabile: sed sola 
+  				<lb ed="#V"/>scientia quae considerat operabile secundum modum quo est operabile habet 
+  				<lb ed="#V"/>obiectum formale operabile: ergo impossibile eset quod scientia 
+  				<lb ed="#V"/>speculativa habeat pro formali obiecto operabile vel quod 
+  				<lb ed="#V"/>scientia practica habeat pro formali obiecto non operabile: et per 
+  				<lb ed="#V"/>consequens practicum et speculativum distinguuntur necessario penes obiecta.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e485"><lb ed="#V"/><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-eaqpee">Ad primum</ref> ergo dicendum quod practicum et speculativum distinguuntur 
+  				<lb ed="#V"/>penes obiecta formalia ipsorum habituum: nec tamen ista obiecta 
+  				<lb ed="#V"/>diversificant potentias: quia non referuntur ad potentiam intel<lb ed="#V"/>lectivam 
+  				ut formalia et primo et per se obiecta: sed ad habitus 
+  				<lb ed="#V"/>sicut naturalia et mathematica sunt diversa formalia obiecta 
+  				<lb ed="#V"/>geometriae et philosophiae naturalis: non tamen sunt diversa obiecta for<lb ed="#V"/>malia 
+  				potentiae intellectivae: immo sunt sub uno formali obie<lb ed="#V"/>cto 
+  				intellectus scilicet sub ente communi: et hoc habent alii ponere cum 
+  				<lb ed="#V"/>ponant scientias essentialiter dividi penes obiecta: et con<lb ed="#V"/>stat 
+  				quod penes obiecta quae sunt prima et per se obiecta forma<lb ed="#V"/>lia 
+  				ipsorum habituum licet contineantur sub uno obiecto potentiae.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e511"><lb ed="#V"/><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-d1e124">Ad 2m</ref> dicendum quod obiectum scientiae practicae licet in suo esse extra 
+  				<lb ed="#V"/>animam sit posterius quam scientia practica. tamen in intentione et in 
+  				<lb ed="#V"/>sua repraesentatione prius est scientia practica: nam prius 
+  				<lb ed="#V"/>praesentatur homini in <choice><orig>fantasia</orig><reg>phantasia</reg></choice> domus vel aliquid tale quam ha<lb ed="#V"/>beat 
+  				de hoc scientiam practicam.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e532"><pc ana="#pilcrow"/>Si autem quaeratur unde veniat 
+  				<lb ed="#V"/>tale <choice><orig>fantasma</orig><reg>phantasma</reg></choice>. Dicendum quod vel provenit ex simili viso vel 
+  				<lb ed="#V"/>ex hoc quod homo cogitat quo faceret aliquod defensivum a plu<lb ed="#V"/>viis 
+  				et vento: et ex hoc tale quid occurrit suo <choice><orig>fantasmati</orig><reg>phantasmati</reg></choice>.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e554"><lb ed="#V"/><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-d1e132">Ad 3m</ref> dicendum quod obiectum scientiae est finis eius sicut res: licet 
+  				<lb ed="#V"/>non sit finis ut assecutio rei. Ad hoc enim tendit unaquaeque scientia 
+  				<lb ed="#V"/>ut per actum suum attingat suum obiectum vel cognoscendo vel efficiendo.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e563"><pb ed="#V" n="4-v"/><cb ed="#V" n="a"/><lb ed="#V"/><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-d1e143">Ad 4m</ref> dicendum quod non quaecumque considerata in scientiis diver<lb ed="#V"/>sificant 
+  				<lb ed="#V"/>scientias: sed solum illa quae sunt formalia et primo
+  				<lb ed="#V"/>et per se obiecta. Constat enim quod metaphysicus et theo<lb ed="#V"/>logus 
+  				considerant de deo secundum quod est omnium prima causa: nec tamen 
+  				<lb ed="#V"/>sunt eadem scientia: quia hic non est primo et per se obiectum 
+  				<lb ed="#V"/>utriusque: sic practica et speculativa possunt quidem considera<lb ed="#V"/>re 
+  				de eodem sed non ut de primo et de per se obiecto: et sic est 
+  				<lb ed="#V"/>in exemplis positis. Nam machinator non considerat de recta li<lb ed="#V"/>nea 
+  				ut de per se et primo obiecto: nec moralis de potentiis 
+  				<lb ed="#V"/>animae: et ideo licet consideret de eodem materialiter et secunda<lb ed="#V"/>rio: 
+  				non tamen sunt de eodem ut de formali obiecto. et ideo ad<lb ed="#V"/>huc 
+  				stat quod practica et speculativa penes formalia obiecta 
+  				<lb ed="#V"/>distinguuntur. Quod autem additur quod intellectus speculativus ex<lb ed="#V"/>tensive 
+  				sit practicus sic oportet intelligi: quia habens scientiam practicam 
+  				<lb ed="#V"/>potest habere considerationem actualem speculativam sicut habens artem 
+  				<lb ed="#V"/>domificativam potest considerare domum non ut intendens aedifica<lb ed="#V"/>re: 
+  				et talis consideratio est speculativa: licet ars domificativa 
+  				<lb ed="#V"/>sit practica. Nam intentio habentis scientiam vel utentis ea non fa<lb ed="#V"/>cit 
+  				eam practicam vel speculativam: quia intellectus habens scientiam 
+  				<lb ed="#V"/>practicam potest considerare cum intentione operandi et sine inten<lb ed="#V"/>tione 
+  				operandi. Vel ideo dicitur quod intellectus speculativus ex<lb ed="#V"/>tensive 
+  				fit practicus: quia inter considerationem actualem specula<lb ed="#V"/>tivam 
+  				et practicam non est differentia nisi quod una est absoluta 
+  				<lb ed="#V"/>ab intentione operandi. et alia se extendi ad intentionem operan<lb ed="#V"/>di 
+  				manente tamen semper scientia practica.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e624"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-d1e170">Ad 5m</ref> dicendum est: quod 
+  				<lb ed="#V"/>quando dicitur quod scientia quae considerat operabile modo vel secundum modum 
+  				<lb ed="#V"/>secundum quem non est operabile non est practica. Dicendum est: quod 
+  				<lb ed="#V"/>iste modus potest teneri vel ex parte cognoscentis ut sit sen<lb ed="#V"/>sus 
+  				quod ille qui considerat operabile etc. et qui habet modum consi<lb ed="#V"/>derandi 
+  				rem operabilem qui modus non est operabilis non est pra<lb ed="#V"/>cticus: 
+  				falsum est: quia non oportet quod modus considerandi rem ope<lb ed="#V"/>rabilem 
+  				sit operabilis: sed res considerata sit operabilis. Vel po<lb ed="#V"/>te 
+  				iste modus teneri ex parte rei cognitae ut sit sensus quod 
+  				<lb ed="#V"/>qui considerat rem operabilem quantum ad aliquem modum 
+  				<lb ed="#V"/>realem in re operabili existentem qui quidem modus non est 
+  				<lb ed="#V"/>operabilis: talis non est practicus: sicut qui considerat hominem 
+  				<lb ed="#V"/>non inquantum sanabilem secundum quod est per medicationem opera<lb ed="#V"/>bilis: 
+  				sed secundum quod est rationalis secundum quod non est a nobis operabilis: 
+  				<lb ed="#V"/>talis non est practicus sed speculativus. Et quando dicitur in mi<lb ed="#V"/>nori 
+  				quod considerare operabile in universali est considerare ipsum modo 
+  				<lb ed="#V"/>quo non est operabile. Verum est secundum quod modus se tenet ex 
+  				<lb ed="#V"/>parte cognoscentis et non ex parte rei considerate: et hic ut di<lb ed="#V"/>ctum 
+  				est non facit considerationem non esse practicam. Constat 
+  				<lb ed="#V"/>enim quod principia iuris naturalis ut nulli esse nocendum et consi<lb ed="#V"/>milia 
+  				quae sunt propositiones universales: pertinent ad scientiam practicam. 
+  				<lb ed="#V"/>Sed verum est quod si aliqua scientia tractaret in generali de omnibus agibi<lb ed="#V"/>libus 
+  				et operabilibus: vel secundum quod invenitur in eis ratio generis et ratio spe<lb ed="#V"/>ciei 
+  				et ratio differentiae: talis esset speculativus: sed considerare 
+  				<lb ed="#V"/>domum in eo quod domus et considerare sanabile secundum quod huiusmodi 
+  				<lb ed="#V"/>non oportet quod sit scientiae speculativae.</p>
+  			
+  			<p xml:id="hnl1prolq2-d1e682"><pc ana="#pilcrow"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq2-d1e197">Ad 6m</ref> dicendum quod si aliqua 
+  				<lb ed="#V"/>scientia consideraret in generali quomodo convenit artibus diffiniri et tra<lb ed="#V"/>deret 
+  				artem in generali diffiniendi artificialia talis esset spe<lb ed="#V"/>culativa. 
+  				Sed si aliqua scientia in speciali docet quod est tale ope<lb ed="#V"/>rabile 
+  				puta quod est sanitas vel domus: talis scientia non est spe<lb ed="#V"/>culativa 
+  				sed practica: quod patet per <ref><name ref="#Aristotle">philosophum</name> 7o <title>metaphysica</title></ref>. ubi osten<lb ed="#V"/>dit 
+  				quod scientia practica incipit a diffinitione et a quod quid est. Unde di<lb ed="#V"/>cit 
+  				ibidem quod medicina si debeat operari sanitatem incipit a quod 
+  				<lb ed="#V"/>quod est sanitatis. Et ideo non oportet quod scientia quae procedit diffini<lb ed="#V"/>endo 
+  				aliquod operabile sit speculativa.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

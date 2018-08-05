@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 5</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-08-24">August 24, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<pb ed="#V" n="6-r"/><cb ed="#V" n="b"/> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq5">
+  			<head xml:id="hnl1prolq5-Hd1e3495">Librum I, Prologus, Quaestio 5</head>
+  			<head xml:id="hnl1prolq5-Hd1e3498" type="questionTitle">Utrum theologia sit scientia una.</head>
+  			<p xml:id="hnl1prolq5-d1e3501"><lb ed="#V"/>Utrum theologia sit scientia una.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3505">Et arguitur 
+  				<lb ed="#V"/>quod non: quia considerat de deo et de creaturis quae sunt 
+  				<lb ed="#V"/>obiecta diversarum rationum: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3512"><pc ana="#pilcrow"/>Si dicas quod consi<lb ed="#V"/>derat 
+  				de eis per unam rationem.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3519"><pc ana="#pilcrow"/>Contra: deus et creatu<lb ed="#V"/>ra 
+  				non conveniunt nisi in aliqua una ratione analoga. Si ergo consi<pb ed="#V" n="6-v"/><cb ed="#V" n="a"/><lb ed="#V"/>derat 
+  				de eis tantum secundum quod conveniunt in una ratione non conside<lb ed="#V"/>rabit 
+  				de eis in speciali quod falsum est.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3531"><lb ed="#V"/>Contra quod habet unum obiectum forma<lb ed="#V"/>le 
+  				est: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3537">Respondeo. Dicendum est quod theologia est una. Cuius 
+  				<lb ed="#V"/>rationem assignant quidam sic: quia in illo modo 
+  				<lb ed="#V"/>cognoscendi quo per unum cognoscitur res et in generali puta inquan<lb ed="#V"/>tum 
+  				ens et in speciali secundum propriam naturam uniuscuiusque: non oportet 
+  				<lb ed="#V"/>multiplicare scientias secundum diversitatem rerum: immo nec possibile 
+  				<lb ed="#V"/>est multiplicare scientias secundum multitudinem rerum in tali modo 
+  				<lb ed="#V"/>cognoscendi: sed modus quo utitur ista scientia est talis: ergo etc 
+  				<lb ed="#V"/>Minorem probant: quia ista sequitur modum dei et substantiarum separatarum 
+  				<lb ed="#V"/>in cognoscendo cum habeat deum pro obiecto: sed modus dei et 
+  				<lb ed="#V"/>substantiarum separatarum est cognoscere per unum et idem res: et in universali et in 
+  				<lb ed="#V"/>speciali: unde et angelus per eandem speciem cognoscit animal in genera<lb ed="#V"/>li 
+  				et <unclear>est</unclear> omnia animalia in speciali: ergo etc.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3567"><pc ana="#pilcrow"/>Sed istud nihil est: 
+  				<lb ed="#V"/>quia licet communicemus cum scientia dei in obiecto: quia deus secundum quod deus 
+  				<lb ed="#V"/>est obiectum scientiae nostrae et divinae: non tamen communicamus in modo co<lb ed="#V"/>gnoscendi 
+  				cum deo vel cum angelis ex parte medii quod est species si<lb ed="#V"/>ve 
+  				ex parte specierum: quia secundum cursum communem in vita praesenti non ha<lb ed="#V"/>bemus 
+  				species nisi illas quas abstrahimus a rebus sensibilibus 
+  				<lb ed="#V"/>fides enim non se habent ad modum speciei sed magis ad modum 
+  				<lb ed="#V"/>luminis: ergo dato quod in substantiis separatis non oporteat pluri<lb ed="#V"/>ficari 
+  				scientias propter hoc quod species repraesentat res in universali et in speciali: 
+  				<lb ed="#V"/>non tamen sequitur quod ita fit in nobis: qui in hoc non possumus 
+  				<lb ed="#V"/>sequi modum substantiarum separatarum: qui non habemus tales species <unclear>e?t</unclear> de 
+  				<lb ed="#V"/>quibus est fides: sed habemus de eis alterum lumen quam lumen naturale 
+  				<lb ed="#V"/>scilicet lumen fidei.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3600"><pc ana="#pilcrow"/>Item dato quod ponatur quod angelus per unam 
+  				<lb ed="#V"/>speciem cognoscat omnia quae pertinent ad unum genus rerum et in ge<lb ed="#V"/>nerali 
+  				et in speciali: tamen nullus ponit quod aliquis intellectus creatus 
+  				<lb ed="#V"/>quantumcumque separatus et altus per unam speciem intelligat omnia genera 
+  				<lb ed="#V"/>entium in generali et in speciali: ergo dato quod efficacia specierum in 
+  				<lb ed="#V"/>repraesentando in substantiis separatis exigat quod non fist in eis tanta di<lb ed="#V"/>versitas 
+  				habituum cognitivorum sicut in nobis: tamen hoc non 
+  				<lb ed="#V"/>tollit omnimodam diversitatem.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3619"><pc ana="#pilcrow"/>Quod <unclear>etiam</unclear> dicunt quod theologia 
+  				<lb ed="#V"/>nostra sequitur modum cognitionis divinae: quia habent deum pro obie<lb ed="#V"/>cto: 
+  				et ideo manet una: hoc est ponere unitatem in theolo<lb ed="#V"/>gia 
+  				propter unitatem obiecti quod ipsi improbant licet male.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3633"><pc ana="#pilcrow"/>Et ideo 
+  				<lb ed="#V"/>dicendum est quod theologia est una propter unitatem formalis obiecti 
+  				<lb ed="#V"/>quia sicut potentia est una cui respondet unum primum et per se formale 
+  				<lb ed="#V"/>obiectum quantumcumque obiecta secundaria: licet per se et obiecta accidenta<lb ed="#V"/>lia 
+  				plurificentur: ita est de scientia. Primum autem et per se obiectum 
+  				<lb ed="#V"/>theologiae est unum scilicet deus secundum quod deus: alia autem secundario consi<lb ed="#V"/>derat: 
+  				ideo etc.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3650"><pc ana="#pilcrow"/>Contra hoc autem dicunt illi de prima opinione 
+  				<lb ed="#V"/>quod est haec petitio principii: quia probatur unitas per unitatem.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3656"><pc ana="#pilcrow"/>Sed 
+  				<lb ed="#V"/>haec est magna ruditas: quia petitio principii non est: si probatur 
+  				<lb ed="#V"/>esse per esse: vel unitas per unitatem: dum tamen non probetur eadem uni<lb ed="#V"/>tas 
+  				per eandem unitatem. Nam esse effectus et <unclear>etiam</unclear> unitas potest probari 
+  				<lb ed="#V"/>per unitatem causae: et similiter unitas per unitatem et econverso: et ta<lb ed="#V"/>lis 
+  				probatio non est petitio principii sed demonstratio.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3674"><pc ana="#pilcrow"/>Si autem 
+  				<lb ed="#V"/>quaeratur quomodo una existens se extendat ad tot consideranda in speciali: 
+  				<lb ed="#V"/>dicendum est quod hoc est et ratione obiecti ad quod omnia habent attribu<lb ed="#V"/>tionem 
+  				non solum in generali sicut ad ens commune: sed <unclear>etiam</unclear> in speciali: et 
+  				<lb ed="#V"/>secundum propria sua: et etiam rationem luminis quod est participatio luminis 
+  				<lb ed="#V"/>divini: quia quanto est altius lumen tanto possunt in eo 
+  				<lb ed="#V"/>plura per unum videri vel cognosci.</p>
+  			
+  			<p xml:id="hnl1prolq5-d1e3694"><lb ed="#V"/><ref type="commentary" target="http://scta.info/resource/hnl1prolq5-d1e3505">Ad primum</ref> ergo in oppositum dicendum quod theologia con<lb ed="#V"/>siderat 
+  				omnia secundum unam primo et per se rationem scilicet quia 
+  				<lb ed="#V"/>solum deum secundum quod deus prout se habent ut primum obiectum: alia autem 
+  				<lb ed="#V"/>secundario. Et quando dicitur quod deus et creatura non communicant in ratione 
+  				<lb ed="#V"/>una nisi in una ratione communi: dicendum est quod non dicitur deus et creatu<lb ed="#V"/>ra 
+  				hic considerari secundum unam rationem formalem obiecti quae sit una 
+  				<lb ed="#V"/>ratio analoga utriusque: sed quia unam est ratio considerandi alterum si<lb ed="#V"/>cut 
+  				color est ratio videndi quantum. Nec sequitur quando creaturae co<lb ed="#V"/>gnoscantur 
+  				secundum proprias rationes per quad differunt a deo: quia consi<lb ed="#V"/>derare 
+  				plura secundum diversas rationes dummodo non sint primo et per 
+  				<lb ed="#V"/>se rationes formales obiecti scientiae vel potentiae non plurificat 
+  				potentiam vel scientiam: sicut visus cognoscit albedinem secundum quod al<lb ed="#V"/>bedo 
+  				et nigredinem similiter: sed non sunt primo et per se obiecta sed 
+  				<lb ed="#V"/>secundo et per se. Et sic est de theologia respectu creaturarum quas 
+  				<cb ed="#V" n="b"/><lb ed="#V"/>in speciali considerat distinguendo iter eas et deum: quia eas sic consi<lb ed="#V"/>derat 
+  				per se licet non primo sed secundario.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>

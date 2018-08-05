@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/critical.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- this needs to be changed to the diplomatic schema when it gets created -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Prologus, Quaestio 7</title>
+        <author>Herveus Natalis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<date when="2016-09-05">September 05, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+      	<authority>A Sentences Commentary Text Archive Project</authority>
+      	<availability status="free">
+      		<p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+      	</availability>
+      </publicationStmt>
+    	<sourceDesc>
+    		<listWit>
+    			<witness xml:id="V" n="venice1505">Venice 1505</witness>
+    		</listWit>
+    	</sourceDesc>
+    </fileDesc>
+  	<encodingDesc>
+  		<schemaRef n="lbp-diplomatic-1.0.0" target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/diplomatic.rng"/>
+  		<editorialDecl>
+  			<p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 guidelines for a diplomatic edition.</p>
+  		</editorialDecl>
+  	</encodingDesc>
+  	<revisionDesc status="draft">
+  		<listChange>
+  			<change when="2016-08-01" status="draft" n="0.0.0-dev">
+  				<p>Created file for the first time.</p>
+  			</change>
+  		</listChange>
+  	</revisionDesc>
+  </teiHeader>
+  <text type="diplomatic" xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+      	<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<!-- <pb ed="#V" n="6-v"/><cb ed="#V" n="b"/> --> 
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="hn-l1prolq7">
+  			<head>Librum I, Prologus, Quaestio 7</head>
+  			<head type="questionTitle">Quaeritur utrum deus sit subiectum theologiae sub ratione speciali et non absolute secundum quod deus</head>
+  			<p><lb ed="#V"/>Quaeritur utrum deus 
+  				<lb ed="#V"/>sit subiectum theologiae sub ratione speciali 
+  				<lb ed="#V"/>et non absolute secundum quod deus.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Et argui<lb ed="#V"/>tur 
+  				quod sic: quia scientia specialis debet esse de subiecto 
+  				<lb ed="#V"/>speciali et sub ratione speciali: sed theologia est 
+  				<lb ed="#V"/>scientia specialis: quia non possunt esse duae scientiae 
+  				<lb ed="#V"/>communes reales: ergo est de ente speciali secundum 
+  				<lb ed="#V"/>specialem rationem: et sic deus erit ibi subiectum 
+  				<lb ed="#V"/>non secundum quod deus absolute: sed secundum specialem rationem.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Praete<lb ed="#V"/>rea 
+  				si theologia consideraret de deo secundum quod deus absolute theo<lb ed="#V"/>logia 
+  				consideraret de deo secundum omnem rationem qua est considerabi<lb ed="#V"/>lis: 
+  				sed si ita esset tunc consideraret de deo etiam secundum rationem illam 
+  				<lb ed="#V"/>secundum quam considerat de deo metaphysicus: hoc autem est inconven<lb ed="#V"/>iens 
+  				scilicet quod duae scientiae considerent de eodem secundum eandem rationem: ergo etc.</p>
+  			
+  			<p><lb ed="#V"/>Contra. Videtur quod deus nullo modo sit subiectum in ali<lb ed="#V"/>qua 
+  				scientia: quia non habet passiones quae pos<lb ed="#V"/>sint 
+  				demonstrari de deo.</p>
+  			
+  			<p><lb ed="#V"/>Respondeo hic sunt duo declaranda. <pc ana="#pilcrow"/>Primum 
+  				<lb ed="#V"/>quod deus sit subiectum huius scientiae. <pc ana="#pilcrow"/>Se<cb ed="#V" n="b"/>cundum 
+  				est ostendere secundum quam rationem subiectum sit in hac scientia.</p>
+  			
+  			<p><lb ed="#V"/>Quantum ad primum omnes concordant in conclusione: sed dif<lb ed="#V"/>ferunt 
+  				in modo concludendi et declarandi. 
+  				<lb ed="#V"/>Nam <sic>quida</sic> declarant hoc ex comparatione subiecti ad materiam 
+  				<lb ed="#V"/>in naturalibus. Alii vero hoc declarant ex comparatione obiecti ad 
+  				<lb ed="#V"/>potentiam in potentiis cognitivis. Dicunt ergo primi quod sicut in 
+  				<lb ed="#V"/>naturalibus illud dicitur materia quod nullam actualitatem includit nec substantialem 
+  				<lb ed="#V"/>nec accidentalem: sed est in potentia ad utramque actualitatem: subiectum 
+  				<lb ed="#V"/>vero dicitur illud quod includit actualitatem essentialem sive substantialem est 
+  				<lb ed="#V"/>tamen in potentia ad accidentalem actum: ita etiam in scientia vel in arte 
+  				<lb ed="#V"/>illud dicitur materia quod non consideratur primo et principaliter: sed introducitur 
+  				<lb ed="#V"/>gratia alterius: quia tale nullam actualitatem scientiae includit. Illud autem 
+  				<lb ed="#V"/>quod est obiectum principale: et primo et per se consideratum includit 
+  				<lb ed="#V"/>actualitatem essentialem scientiae: cum distinguantur scientiae per obiecta: 
+  				<lb ed="#V"/>et per consequens obiectum tale dat actualitatem scientiae. Est tamen in poten<lb ed="#V"/>tia 
+  				ad actualitatem luminis naturalis intellectualis: in virtute cuius 
+  				<lb ed="#V"/>obiectum movet: quae actualitas est accidentalis et minus per se 
+  				<lb ed="#V"/>se habet ad scientiam quam actualitas quam dat obiectum. Et sic quia deus 
+  				<lb ed="#V"/>est primum et per se obiectum theologiae: ideo ex tali similitudine 
+  				<lb ed="#V"/>dicitur subiectum in theologia.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Sed ista positio videtur deficere in 
+  				<lb ed="#V"/>tribus.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Primo quia obmisso eo quod est principale assumit im<lb ed="#V"/>pertinens. 
+  				Nam illi qui quaerunt utrum deus sit subiectum theologiae: non 
+  				<lb ed="#V"/>multum intendunt quaerere quare primum et per se obiectum scientiae dicatur subiectum 
+  				<lb ed="#V"/>sed magis est intentio quaestionis inquirere utrum deus sit prmum et per se 
+  				<lb ed="#V"/>obiectum et quomodo et per quam rationem. Ista autem deductis in nullo 
+  				<lb ed="#V"/>ostendit deum esse primum et per se obiectum theologiae. Sed hoc sup<lb ed="#V"/>posito: 
+  				laborat ostendere quare per se obiectum et primum dicitur subiectum.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Secundo deficit: quia hoc impertinens assumptum non probatur per 
+  				<lb ed="#V"/>rationem assumptam vel adductam: quia in naturalibus non est aliquod subiectum 
+  				<lb ed="#V"/>ex hoc quod includit actum aliquem virtualiter et sic causa efficiens: sicut 
+  				<lb ed="#V"/>caelum continet actum omnium rerum inferiorum: immo magis ex hoc dicitur ali<lb ed="#V"/>quid 
+  				esse subiectum ibi quod sic includit actum sicut mobile moven<lb ed="#V"/>tis 
+  				motum: quam illud dicatur subiectum esse quod sic actus includit ut causa: 
+  				<lb ed="#V"/>sed bene dicitur aliquid esse subiectum ex hoc quod includit sicut partem sui for<lb ed="#V"/>mam 
+  				substantialem: ita quod hoc ponatur subici accidenti. Obiectum autem 
+  				<lb ed="#V"/>principale non includit actum scientiae: sive dicatur actus scientiae actus 
+  				<lb ed="#V"/>qui est ipsa scientia sive actus elicitus ab ea qui est considerare si<lb ed="#V"/>cut 
+  				partem sui: sed sicut causa includit effectum: eo quod obiectum mo<lb ed="#V"/>vet 
+  				intellectum et ad habitum scientiae et ad intelligere sive mediante 
+  				<lb ed="#V"/>specie: ut quidam ponunt sive non. Et ideo includere actum modo quo 
+  				<lb ed="#V"/>obiectum principale scientiae includit actum scientiae: non facit quod obiectum 
+  				<lb ed="#V"/>habeat aliquam similitudinem cum subiecto in naturalibus. Nec potest aliquis di<lb ed="#V"/>cere 
+  				quod quia obiectum principale includit actum realem qui est eius 
+  				<lb ed="#V"/>forma substantialis: dicatur subiectum plus quam obiectum secundarium: quia obiectum 
+  				<lb ed="#V"/>secundarium: ita includit suam formam substantialem sicut principale.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Item 
+  				<lb ed="#V"/>illud quod proprie dicitur subiectum in naturalibus habet de ratione sua quod non sit 
+  				<lb ed="#V"/>susceptivum actus accidentalis nisi mediante substantiali incluso: ita quod 
+  				<lb ed="#V"/>prius intelligitur includere actum substantialem quam recipiat actum acci<lb ed="#V"/>dentalem. 
+  				Obiectum autem prius recipit actum a lumine quam possit 
+  				<lb ed="#V"/>includere actum scientiae: ut scilicet possit movere intellectum ad actum 
+  				<lb ed="#V"/>scientiae: sive sit actus quo est scientiae sive sit actus elicitus ab ea.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ter<lb ed="#V"/>tio 
+  				deficit ob illud dictum quod falsum assumit scilicet quod lumen intellectus 
+  				<lb ed="#V"/>agentis sit minus essentiale scientiae quam obiectum: quia constat quod causa universalis 
+  				<lb ed="#V"/>est essentialioir ipsi effectui quam particularis vel saltem non est mi<lb ed="#V"/>nus 
+  				essentialis: sicut virtus caeli non habet minus essentialem ordi<lb ed="#V"/>nem 
+  				ad producendum asinum quam asini semen. Et loquor hoc de causa 
+  				<lb ed="#V"/>universali non <unclear>praedicationem</unclear> sic se habet alternas ad calefaciens: sed de causa universali per 
+  				<lb ed="#V"/>suae causalitatis extensionem: sicut sol vel caelum est causa universalis respectu 
+  				<lb ed="#V"/>istorum inferiorum: sed in motione qua movetur intellectus sive ad speciem 
+  				<lb ed="#V"/>sive ad actum intelligendi intellectus agens se habet ut universalis causa: cuius 
+  				<lb ed="#V"/>universalitas se extendit ad omnem motionem intellectus. Obiectum autem 
+  				<lb ed="#V"/>determinatum quodcumque sicut movens particulare: ergo etc. Nec valet 
+  				<lb ed="#V"/>quod dicitur quod scientia habet speciem ab obiecto non a lumine: et idoe actua<lb ed="#V"/>litas 
+  				obiecti est magis essentialis: quia scientia non habet actualitatem 
+  				<lb ed="#V"/>ab obiecto nisi sicut a causa movente. Eandem enim actualitatem 
+  				<lb ed="#V"/>essentialiter et secundum rem habet scientia ab obiecto et a lumine: quia ean<lb ed="#V"/>dem 
+  				motionem causant in intellectu sive eandem actualitatem 
+  				<lb ed="#V"/>sicut causa universalis et particularis: licet forte secundum generaliorem rationem re<lb ed="#V"/>ducatur 
+  				per se in lumen quam in obiectum ut si dicam quod cogni<lb ed="#V"/>tio 
+  				hominis inquantum est talis specialis cognitio reducitur in 
+  				<pb ed="#V" n="8-v"/>
+  				<cb ed="#V" n="a"/>
+  				<lb ed="#V"/>obiectum quod est homo sicut in causam moventem: sed inquantum 
+  				<lb ed="#V"/>est cognitio intellectualis simpliciter reducitur in lumen cuius 
+  				<lb ed="#V"/>causalitas se extendit ad omnem cognitionem intellectivam. Et 
+  				<lb ed="#V"/>ex hoc non sequitur quin virtus causae sit essentialis causa istorum 
+  				<lb ed="#V"/>inferiorum sicut quodcumque agens inferius: licet effectus infe<lb ed="#V"/>riores 
+  				reducantur in caelum secundum generaliorem rationem quam in cau<lb ed="#V"/>sam 
+  				proximam.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Et ideo melior est alia declaratio quae hoc 
+  				<lb ed="#V"/>declarat ex similitudine obiecti ad potentiam: quia cum scientia non 
+  				<lb ed="#V"/>sit nisi quaedam dispositio potentiae determinans eam ad de<lb ed="#V"/>terminatum 
+  				obiectum: sicut potentia se habet ad suum obiectum 
+  				<lb ed="#V"/>sumptum secundum totum suum ambitum: ita scientia se habet ad determi<lb ed="#V"/>natum 
+  				obiectum. Illud autem obiectum principale dicitur subiectum non 
+  				<lb ed="#V"/>ad similitudinem subiecti in esse reali secundum quod ens actu sim<lb ed="#V"/>pliciter 
+  				subiacet accidenti: sed dicitur subiectum ab eo quod est subici 
+  				<lb ed="#V"/>in propositionibus et conclusionibus scientiae: quia illud cui probatur aliquid in 
+  				<lb ed="#V"/>esse oportet quod sit subiectum in altera praemissarum et in conclusione. 
+  				<lb ed="#V"/>Et si debeat obiectum dici subiectum per similitudinem ad natura<lb ed="#V"/>lia: 
+  				hoc non erit secundum actualitatem quae sit inter obiectum et lu<lb ed="#V"/>men. 
+  				sed secundum modum substantiae et accidentis qui secundum rationem aliquo 
+  				<lb ed="#V"/>modo invenitur inter praedicatum et subiectum inquantum subiectum se 
+  				<lb ed="#V"/>habet ut cui inest aliud: praedicatum vero ut quod inest alii.</p>
+  			
+  			<p><lb ed="#V"/>Circa 2m sic est procedendum. <pc ana="#pilcrow"/>Nam primo ponetur opi<lb ed="#V"/>nio 
+  				quae ponit deum secundum rationem specialem esse subiectum 
+  				<lb ed="#V"/>huius scientiae et non secundum quod deus absolute: et ponentur sua motiva. 
+  				<lb ed="#V"/><pc ana="#pilcrow"/>Secundo ponetur opinio quae ponit deum secundum quod deus absolu<lb ed="#V"/>te 
+  				esse subiectum cum suis rationibus. <pc ana="#pilcrow"/>3o solventur rationes primae opinionis.</p>
+  			
+  			<p><lb ed="#V"/>Quantum ergo ad primum sciendum est quod quidam ponunt 
+  				<lb ed="#V"/>quod deus secundum quod deus absolute non sit subiectum 
+  				<lb ed="#V"/>theologiae: sed secundum specialem rationem scilicet secundum quod redemptor vel glo<lb ed="#V"/>rificator 
+  				et praeter duas rationes in arguendo positas addu<lb ed="#V"/>cunt 
+  				ad haec tres rationes.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Prima est quia infinitum secundum quod infi<lb ed="#V"/>nitum 
+  				et secundum rationem infiniti non potest esse subiectum scientiae finitae: sed 
+  				<lb ed="#V"/>deus secundum quod deus dicit aliquid infinitum: ergo sic non poterit 
+  				<lb ed="#V"/>esse subiectum cuiuscumque scientiae creatae: cum omnis scientia creata sit 
+  				<lb ed="#V"/>finita.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Secunda talis est: eius est considerare omnia quae sunt et 
+  				<lb ed="#V"/>esse possunt qualitercumque cuius est considerare deum secundum quod 
+  				<lb ed="#V"/>deus: quia omnia relucent in deo secundum quod deus qualitercumque sint 
+  				<lb ed="#V"/>entia etiam possibilia: sed theologia secundum <name ref="#Augustine">Augustinum</name> non considerat 
+  				<lb ed="#V"/>de omnibus <quote ana="#Augustine_deTrinitate_14_1_3_b">sed tantum de hiis quibus fides saluberrima nutritur 
+  				<lb ed="#V"/>defenditur et roboratur</quote>, ergo etc.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Tertia talis est illa scientia 
+  				<lb ed="#V"/>cuius finis principalis est salus et gloria habet considerare suum 
+  				<lb ed="#V"/>obiectum secundum quod habet habitudinem ad salvandum et glorificandum 
+  				<lb ed="#V"/>sed finis principalis huius scientiae est salus et gloria: ergo ista 
+  				<lb ed="#V"/>scientia habet considerare suum obiectum scilicet deum principaliter secundum quod 
+  				<lb ed="#V"/>salvator et glorificator.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Praeter istas rationes potest adduci 
+  				<lb ed="#V"/>quarta quae videtur habere maiorem colorem quam aliqua dicta<lb ed="#V"/>rum: 
+  				quia si theologia sit de deo secundum quod deus sequitur quod idem 
+  				<lb ed="#V"/>habitus sit scitivus et creditivus: sed hoc est impossibile: quia 
+  				<lb ed="#V"/>sequeretur eundem actum esse scire et credere: ergo etc. Minor 
+  				<lb ed="#V"/>patet: Maior probatur: quia quaedam conveniunt deo secundum quod deus 
+  				<lb ed="#V"/>quae possunt demonstrari scilicet quod sit unus simplex vel aliquid 
+  				<lb ed="#V"/>tale: quaedam autem sunt quae sola fide tenentur ut quod sit trinus vel 
+  				<lb ed="#V"/>incarnatus. Et sic eorum quae conveniunt deo secundum quod deus quae<lb ed="#V"/>dam 
+  				sunt scita: et quaedam etiam tantum credita: sed talia non pos<lb ed="#V"/>sunt 
+  				cadere sub eodem habitu nisi ponatur idem habitus 
+  				<lb ed="#V"/>scitivus et creditivius: ergo etc.</p>
+  			
+  			<p><lb ed="#V"/>Alia opinio ponit quod deus secundum quod deus absolute est sub<lb ed="#V"/>iectum 
+  				huius scientiae. <pc ana="#pilcrow"/> Ad cuius evidentiam scien<lb ed="#V"/>dum 
+  				primo quod ratio secundum quam aliquid dicitur apprehendi vel 
+  				<lb ed="#V"/>considerari dupliciter potest accipi. Uno modo ex parte intelligen<lb ed="#V"/>tis 
+  				sicut si unus credat aliquam rem et alius sciat eandem rem 
+  				<lb ed="#V"/>et quantum ad eandum proprietatem: ibi est eadem ratio ex parte 
+  				<lb ed="#V"/>rei apprehense quam unus credit et alius scit: sed non est eadem 
+  				<lb ed="#V"/>ratio cognoscendi ex parte considerantis: quia credere et scire 
+  				<lb ed="#V"/>non sunt eiusdem rationis. Accipiendo ergo rationem ex parte 
+  				<lb ed="#V"/>cognoscentis: ratio et modus cognoscendi secundum quam quid consi<lb ed="#V"/>deratur 
+  				in theologia est revelabilitas sive credulitas re<lb ed="#V"/>velabilium. 
+  				Nam proprius modus theologiae est credere ea 
+  				<lb ed="#V"/>quae a deo revelantur. Nec obstat quod omnia possent per revela<lb ed="#V"/>tionem 
+  				accipi et non solum theologica: quia diversitas quae est 
+  				<cb ed="#V" n="b"/>
+  				<lb ed="#V"/>ex parte intelligentis et in modo intelligendi non habet distingue<lb ed="#V"/>re 
+  				scientias specifice abinvicem secundum quod distinguuntur per propria 
+  				<lb ed="#V"/>obiecta: sed <sic>distingunt</sic> modos cognoscendi generales: sicut 
+  				<lb ed="#V"/>aliud est credere et aliud scire: sive sit de eadem re sive de di<lb ed="#V"/>versis. 
+  				Accipiendo autem rationem ex parte obiecti sicut alia 
+  				<lb ed="#V"/>consideratio est considerare aliquid secundum quod ens et aliud considera<lb ed="#V"/>re 
+  				ipsum secundum quod mobile est. Sic licet quidam ponant quod deus sit 
+  				<lb ed="#V"/>hic subiectum non secundum quod deus absolute: sed secundum quod glorifica<lb ed="#V"/>tor 
+  				vel reparator. Aliis tamen et verius (sicut credo) videtur quod 
+  				<lb ed="#V"/>subiectum theologiae sit deus secundum quod deus absolute. Et ad hoc prae<lb ed="#V"/>notandum 
+  				est quod hoc quod dicitur deum secundum quod deus absolute esse 
+  				<lb ed="#V"/>subiectum theologiae triplicem intellectum potest habere. unum 
+  				<lb ed="#V"/>scilicet quod deus secundum omnem rationem qua est considerabilis sit subiectum 
+  				<lb ed="#V"/>sic quod principale et formale obiectum huius scientiae sit quoddam ag<lb ed="#V"/>gregatum 
+  				ex omnibus rationibus divinis: ita videlicet quod quaelibet 
+  				<lb ed="#V"/>ratio divina se habeat ad obiectum principale theologiae et 
+  				<lb ed="#V"/>formale quasi pars integralis secundum modum nostrum intelligen<lb ed="#V"/>di. 
+  				Et hoc non potest esse: quia omnis scientia sive sit de deo sive de alio 
+  				<lb ed="#V"/>praeter ea quae considerat ut partes integrales sui obiecti sive 
+  				<lb ed="#V"/>accipiantur partes integrales secundum rem sive secundum rationem: opor<lb ed="#V"/>tet 
+  				quod consideret aliqua alia ut passiones et proprietates pro<lb ed="#V"/>bandas 
+  				de suo obiecto. Sicut patet quod scientia naturalis praeter for<lb ed="#V"/>mam 
+  				et materiam quae sunt partes integrales sui subiectum consi<lb ed="#V"/>derat 
+  				alia de ipso ut passiones: sicut esse in tempore vel in 
+  				<lb ed="#V"/>loco et sic de aliis: et sic etiam in theologia multa divina 
+  				<lb ed="#V"/>considerantur ut passiones vel proprietates probandae de sub<lb ed="#V"/>iecto 
+  				theologiae: ut quod deus est iustus vel infinitus vel ali<lb ed="#V"/>quid 
+  				tale. Alium intellectum potest habere scilicet quod dicatur deus ab<lb ed="#V"/>solute 
+  				secundum quod deus esse subiectum theologiae: quia non est subie<lb ed="#V"/>ctum 
+  				eius secundum aliquam rationem determinatam: sed indetermi<lb ed="#V"/>nate 
+  				secundum hanc vel illam ita quod scilicet formale subiectum theolo<lb ed="#V"/>giae 
+  				sit aliquid commune ad quamcumque cognitionem divinam si<lb ed="#V"/>cut 
+  				ad partes subiectivas: et hoc simpliciter esse non potest: quia in 
+  				<lb ed="#V"/>omni scientia praeter partes subiectivas subiecti oportet pone<lb ed="#V"/>re 
+  				aliqua quae ut passiones probantur de ipso scilicet subiecto. un<lb ed="#V"/>de 
+  				multae passiones divinae considerantur in theologia non 
+  				<lb ed="#V"/>ut partes subiective sui subiecti: immo ut proprietates proban<lb ed="#V"/>dae 
+  				de subiecto. Tertio modo potest intelligi quod deus secundum quod 
+  				<lb ed="#V"/>deus sit subiectum theologiae ut hoc quod dico absolute accipiatur 
+  				<lb ed="#V"/>secundum absolutionem substantiae ab accidente: ita quod deum accipiamus 
+  				<lb ed="#V"/>pro substantia. Alia vero quae sunt attributa ut iustum bonum sa<lb ed="#V"/>pientem 
+  				et glorificatorem et similia accipiantur quasi pro acciden<lb ed="#V"/>tibus 
+  				per se consequentibus: ita quod sit sensus quod subiectum theo<lb ed="#V"/>logiae 
+  				sit deus non secundum aliquam rationem determinatam attribu<lb ed="#V"/>talem 
+  				quae se habet secundum nostrum modum intelligendi ad deum 
+  				<lb ed="#V"/>ut accidens consequens subiectum: sed secundum quod deus id est secundum 
+  				<lb ed="#V"/>rationem suae substantiae divinae quae omnium istorum est fundamentum: 
+  				<lb ed="#V"/>sicut substantia est fundamentum proprietatum consequentium: sit 
+  				<lb ed="#V"/>subiectum theologiae: sic videtur mihi quod deus secundum quod deus ab<lb ed="#V"/>solute 
+  				est subiectum theologiae.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Et hoc probo primo ex 
+  				<lb ed="#V"/>natura rei. <pc ana="#pilcrow"/> Secundo ex dictis adversariorum. <pc ana="#pilcrow"/> <pc ana="#pilcrow"/>Tertio ostendam 
+  				<lb ed="#V"/>quod adversarii non possunt vitare inconveniens quod nituntur vitare 
+  				<lb ed="#V"/>ponendo deum esse subiectum theologiae secundum rationem determinatam.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Quantum ad primum adduco tres rationes. <pc ana="#pilcrow"/>Prima sumitur 
+  				<lb ed="#V"/>ex ambitu subiecti et est talis. Ratio formalis subiecti de<lb ed="#V"/>bet 
+  				sic ambire et fundamentaliter continere quae per se tractan<lb ed="#V"/>tur 
+  				in scientia cuius ponitur subiectum quod omnia per se reducantur ad ipsam 
+  				<lb ed="#V"/>sicut ad fundamentum primum omnium in quo est standum: sed 
+  				<lb ed="#V"/>nulla ratio attributalis puta glorificatio vel aliquid tale sic se 
+  				<lb ed="#V"/>habet ad omnia quae tractantur in theologia: ergo etc. Utramque assum<lb ed="#V"/>ptam 
+  				probo. Et primo maiorem: quia secundum <name ref="#Aristotle">philosophum</name> in pluribus lo<lb ed="#V"/>cis 
+  				unaqueque scientia intantum producere habet suam considera<lb ed="#V"/>tionem 
+  				quantum exigit suum per se subiectum. unde dicit quod me<lb ed="#V"/>dicus 
+  				non habet tractare de carne vel nervo nisi inquantum 
+  				<lb ed="#V"/>sunt subiectum sanitatis de qua habet tractare principaliter medicus. 
+  				<lb ed="#V"/>Nec moralis habet tractare de potentiis animae nisi sed quod 
+  				<lb ed="#V"/>exigit materia moralis de qua per se pertractat: sed hoc non 
+  				<lb ed="#V"/>esset nisi formale obiectum scientiae esset fundamentum per se omnium 
+  				<lb ed="#V"/>ibidem consideratorum: ergo etc. Minorem similiter probo et de se patet 
+  				<lb ed="#V"/>quod non est aliqua ratio attributalis ad quam sicut ad per se fun<pb ed="#V" n="9-r"/><cb ed="#V" n="a"/><lb ed="#V"/>damentum 
+  				reducantur omnia quae de deo considerat theologia: tum 
+  				<lb ed="#V"/>quia multa considerat theologus de deo quae se habent per mo<lb ed="#V"/>dum 
+  				substantiae. Rationes autem attributales se habent per modum 
+  				<lb ed="#V"/>accidentis. ide autem quod se habet per modum accidentis: habet re<lb ed="#V"/>duci 
+  				sicut ad suum per se fundamentum ad id quod se habet per 
+  				<lb ed="#V"/>modum substantiae. Tum quia theologus habet considerare per se ea quae 
+  				<lb ed="#V"/>conveniunt deo secundum se: et non solum ea quae conveniunt deo per 
+  				<lb ed="#V"/>comparationem ad extra. Ea autem quae conveniunt ei in se sunt 
+  				<lb ed="#V"/>fundamentum eorum quae conveniunt ei per operationem ad extra. 
+  				<lb ed="#V"/>Et quia glorificator repartor et huiusmodi dicuntur per com<lb ed="#V"/>parationem 
+  				ad extra: impossibile est quod ad ea reducatur ea 
+  				<lb ed="#V"/>quae de deo considerat theologus: immo potius econverso. 
+  				<lb ed="#V"/>Quinimmo si glorificator et reparator esset per se subiectum 
+  				<lb ed="#V"/>quasi per accidens et quasi excedens limites suos consideraret 
+  				<lb ed="#V"/>theologus quicquid tractavit in primo et 2o libro sententiarum: 
+  				<lb ed="#V"/>ergo etc.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Si dicatur ad hoc quod subiectum est: cuius gratia conside<lb ed="#V"/>rantur 
+  				alia. Et quia solus filius est incarnatus cuius incar<lb ed="#V"/>natio 
+  				fuit causa reparationis ideo oportuit considerare de tri<lb ed="#V"/>nitate 
+  				etc. Non valet: quia ad hoc non oportuisset ita exquisi<lb ed="#V"/>tam 
+  				et principalem considerationem facere sicut de divisione 
+  				<lb ed="#V"/>potentiarum animae a morali. Licet enim scientia aliquando 
+  				<lb ed="#V"/>incipiat procedere ab aliquo posteriore suo subiecto in de<lb ed="#V"/>monstrando: 
+  				non tamen suus processus descendit ultra nisi 
+  				<lb ed="#V"/>quantum exigit suum subiectum.</p>
+  			
+  			<!-- discussion below might be related to first principles of theology discussion -->
+  			<p><pc ana="#pilcrow"/>Secunda ratio sumitur ex  
+  				<lb ed="#V"/>habitudine subiecti ad principia: et accipiuntur haec per prin<lb ed="#V"/>cipia 
+  				praemissae quae accipiuntur sine discursu et inquisitio<lb ed="#V"/>ne 
+  				ad probandum ea quae concluduntur de subiecto. Et ar<lb ed="#V"/>guitur 
+  				sic secundum eandem rationem formalem est aliquid subie<lb ed="#V"/>ctum 
+  				principior scientiae et ipsius scientiae: et hoc patet: quia 
+  				<lb ed="#V"/>semper subiectum de quo aliquid probatur in conclusione ac<lb ed="#V"/>cipitur 
+  				in aliqua praemissarum: et per illam rationem secundum quam 
+  				<lb ed="#V"/>accipit in praemissa concluditur de eo id quod de eo infertur in 
+  				<lb ed="#V"/>conclusione: sed deus non est subiectum principiorum ex qui<lb ed="#V"/>bus 
+  				arguit theologus scilicet articulorum secundum aliquam rationem de<lb ed="#V"/>terminatam attributalem ut de se patet. Non enim potest dici 
+  				<lb ed="#V"/>quod deus sit trinus et unus et sit pater et filius et spiritus santus 
+  				<lb ed="#V"/>et creator et similia quae continentur in articulis per rationem 
+  				<lb ed="#V"/>glorificatoris vel per aliam rationem attributalem: ergo etc.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Contra hoc dicunt quidam dupliciter. <pc ana="#pilcrow"/>Primo quia non 
+  				<lb ed="#V"/>omne subiectum cuiuslibet scientiae respicit aliqua principia 
+  				<lb ed="#V"/>sicut ens secundum quod ens vel ipse deus non habet principia.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Secundo sic: quia deus non potest dici trinus et unus secundum ean<lb ed="#V"/>dem 
+  				rationem: ergo non potest esse subiectum principiorum et scien<lb ed="#V"/>tiae 
+  				cum non sit subiectum ipsorum principiorum secundum eandem rationem.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Ad primum autem istorum satis patet ex dictis. Nam hic non 
+  				<lb ed="#V"/>loquimur de principiis subiecti sive rei cuius scientiae quaeritur 
+  				<lb ed="#V"/>sed de principiis sciendi quae sunt ipsae praemissae ex quibus 
+  				<lb ed="#V"/>aliquid probatur de subiecto. Argumentum autem procedit de 
+  				<lb ed="#V"/>principiis essendi rei scitae.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 2m dicendum quod deus non 
+  				<lb ed="#V"/>dicitur subiectum principiorum sive propositionum quae sunt ar<lb ed="#V"/>ticuli 
+  				secundum eandem rationem formalem eorum quae enunciantur de 
+  				<lb ed="#V"/>eo: ut quando dicitur trinus et unus sit eadem ratio eius ut 
+  				<lb ed="#V"/>est trinus et ut est unus: quia tunc esset eadem ratio trinitatis 
+  				<lb ed="#V"/>personarum et unitatis essentiae: sed dicitur esse subiectum omnium 
+  				<lb ed="#V"/>istorum secundum unam rationem fundamentalem quae est fundamen<lb ed="#V"/>tum 
+  				omnium istorum: sicut si diceretur quod homo per unam pri<lb ed="#V"/>mam 
+  				fundamentalem rationem habet quod sit animal docile liberum 
+  				<lb ed="#V"/>arbitrium et polliticum et similia scilicet per rationem naturae intellectua<lb ed="#V"/>lis: 
+  				hoc ratio est ratio substantiae divinae secundum quod est talis suppre<lb ed="#V"/>ma 
+  				substantia vel aliquid tale.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Tertia ratio sumitur ex habi<lb ed="#V"/>tudine 
+  				subiecti ad passionem sive ad id quod se habet ut pas<lb ed="#V"/>sio 
+  				probata de subiecto.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad huius evidentiam sciendum 
+  				<lb ed="#V"/>quod scientia bene quaerit de subiecto ut de quo aliquod praedi<lb ed="#V"/>catum 
+  				probatur sicut philosophia naturalis bene quaerit utrum mo<lb ed="#V"/>bile 
+  				vel id quod movetur sit talis vel talis conditionis: sed 
+  				<lb ed="#V"/>non quaerit de ipso ut de quodam praedicato probando de alio 
+  				<lb ed="#V"/>nisi quis velit excedere metas scientiae naturalis. unde scientia natura<lb ed="#V"/>lis 
+  				non habet probare quod sit aliqua natura quae sit ens mobile. immo 
+  				<lb ed="#V"/>habet hoc supponere. Et ex hiis potest formari talis ratio. Id de 
+  				<lb ed="#V"/>quo quaeritur in scientia ut de praedicato probando de alio non est 
+  				<cb ed="#V" n="b"/>
+  				<lb ed="#V"/>subiectum formale illius scientiae: sed sic se habet glorificatio et quacunque 
+  				<lb ed="#V"/>ratio attributalis: unde sicut de aliis proprietatibus divinis qui 
+  				<lb ed="#V"/>secundum nostrum modum intelligendi se habent ut superaddita ad essentiam 
+  				<lb ed="#V"/>ita et de glorificatore quaeritur in theologia ut de praedicato proban<lb ed="#V"/>do 
+  				de deo. unde quaerimus in theologia de deo utrum sit glorifi<lb ed="#V"/>cator 
+  				sicut quaeritur utrum sit sapiens vel omnipotens vel aliquid 
+  				<lb ed="#V"/>tale: non autem quaeritur communiter in theologia de glorificatore: ut 
+  				<lb ed="#V"/>de subiecto de quo aliquid probetur quaerendo utrum glorificatore sit 
+  				<lb ed="#V"/>deus vel omnipotens vel aliquid tale: ideo etc.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Secundo postea 
+  				<lb ed="#V"/>probo idem ex dictis adversariorum. Secundum eos deus est ob<lb ed="#V"/>iectum 
+  				scientiae nostrae et scientiae beatorum secundum eandem rationem: sed non est 
+  				<lb ed="#V"/>obiectum scientiae beatorum sed aliquam rationem attributalem: ergo etc. Pro<lb ed="#V"/>batio 
+  				minoris: quia in cognitione intuitiva in qua res per se 
+  				<lb ed="#V"/>praesens movet intellectum ad sui intuitionem obiectum intellectus 
+  				<lb ed="#V"/>sic moti est res secundum modum suum essendi realem et non secundum ali<lb ed="#V"/>quam 
+  				rationem determinatam quae de ea quantum ad aliquam eius 
+  				<lb ed="#V"/>proprietatem posset formari: sic autem videtur deus a beatis. Unde obie<lb ed="#V"/>ctum 
+  				principale visionis beatae est substantia divina prout est quaedam 
+  				<lb ed="#V"/>natura habens talem entitatem in suo esse reali quae fundamentum 
+  				<lb ed="#V"/>est omnium attributorum.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Tertio ostendo adversarios non 
+  				<lb ed="#V"/>subterfugere inconveniens ad quod nituntur alios adducere: quia 
+  				<lb ed="#V"/>si deus consideratur vel videtur in via vel in patria secundum quod glorifi<lb ed="#V"/>cator. 
+  				Aut ly secundum quod reduplicat virtutem divinam glorificato<lb ed="#V"/>ris 
+  				et ut divina virtus est. Aut reduplicat effectum gloriae causa<lb ed="#V"/>tum 
+  				in creatura. Aut reduplicat actionem dei glorificantis: 
+  				<lb ed="#V"/>Si primo modo sequitur quod obiectum formale scientiae nostrae sit infinitum 
+  				<lb ed="#V"/>secundum suam infinitatem: quia quicquid est divinum per essentiam sive sit 
+  				<lb ed="#V"/>virtus glorificativa sive sapientia sive aliud inquantum est divi<lb ed="#V"/>num 
+  				per essentiam est: ita infinitum sicut deus ipse. Si 2o modo se<lb ed="#V"/>quitur 
+  				quod obiectum formale scientiae viae et visionis patriae sit aliquod 
+  				<lb ed="#V"/>creatum quod est absurdum. Si 3o modo aut actio illa est idem quod 
+  				<lb ed="#V"/>essentia divina aut non. Si sic tunc idem erit iudicium de illa 
+  				<lb ed="#V"/>actione et de virtute glorificativa quantum ad propositum pertinet: 
+  				<lb ed="#V"/>quia omne divinum per essentiam inquantum huiusmodi est infinitum. 
+  				<lb ed="#V"/>Si autem ponatur quod illa actio non sit idem re cum essentia divina 
+  				<lb ed="#V"/>sequitur quod sit quid creatum et sic aliquid creatum est obiectum forma<lb ed="#V"/>le 
+  				scientiae viae et visionis patriae. Si dicas quod ly secundum quod redupli<lb ed="#V"/>cat 
+  				actionem dei quae est essentia divina: ut tamen terminatur ad 
+  				<lb ed="#V"/>creaturam: quaero utrum principalius consideretur ut est actio dei 
+  				<lb ed="#V"/>existens idem cum essentia divina. Aut ut terminatur ad crea<lb ed="#V"/>turam 
+  				sive ratione termini quae est creatura. si primo modo tunc 
+  				<lb ed="#V"/>adhuc formale obiectum est infinitum. Si 2o modo tunc aliquid 
+  				<lb ed="#V"/>creatum est formalius in obiecto theologiae et etiam beatitudinis quam 
+  				<lb ed="#V"/>aliquid divinum: quod est absurdum: immo valde reputatur inconveniens 
+  				<lb ed="#V"/>quod aliquid creatum sit obiectum vel pars obiecti beatitudinis.</p>
+  			
+  			<p><lb ed="#V"/>Ad evidentiam ergo primae rationis quam inducunt in<lb ed="#V"/>contrarium. 
+  				Sciendum quod in significatione 
+  				<lb ed="#V"/>huius nominis quod est infinitum est aliquid formale et aliquid materiale 
+  				<lb ed="#V"/>formale quod importatur ibi est privatio finis: sicut et in uno inpor<lb ed="#V"/>tatur 
+  				privatio divisionis. Aliud est quod importatur ibi materialiter scilicet 
+  				<lb ed="#V"/>natura super quam fundatur ista privatio finis: sicut si sit aliqua linea 
+  				<lb ed="#V"/>carens terminis sive punctis dicetur materialiter infinitum: quia ipsa est 
+  				<lb ed="#V"/>natura in qua invenitur privatio finis: qui est terminus quantitatis. 
+  				<lb ed="#V"/>Sic ergo quando dicimus de deo quod est infinitum quid: importatur formaliter 
+  				<lb ed="#V"/>in significato huius termini privatio finis: sed quasi materialiter im<lb ed="#V"/>portatur 
+  				natura divina in qua fundatur talis privatio: sed econverso 
+  				<lb ed="#V"/>est de hoc vocabulo deus. Nam ibi importatur formaliter ipsa natura divi<lb ed="#V"/>na: 
+  				in qua fundatur privatio finitationis sive limitationis: 
+  				<lb ed="#V"/>ipsa autem carentia finis sive limitationis se habet ut proprietas consequens. 
+  				<lb ed="#V"/>Quando ergo dicitur quod infinitum non potest esse obiectum scientiae finite. Si loqua<lb ed="#V"/>mur 
+  				quantum ad id quod infinitum importat formaliter scilicet privationem fi<lb ed="#V"/>nis 
+  				falsum est: quia eiusdem scientiae eset cognoscere habitum et priva<lb ed="#V"/>tionem 
+  				oppositam. Constat autem quod cognoscere finem vel quid est fi<lb ed="#V"/>nis 
+  				vel quantitatis molis vel virtualis vel etiam perfectionis potest 
+  				<lb ed="#V"/>convenire scientiae finitae: ideo etc. Si autem loquamur de infinito ratione fun<lb ed="#V"/>damentum 
+  				talis carentiae sive accipiatur ut quaedam res in se: sive ut 
+  				<lb ed="#V"/>quaedam res in qua talis carentia fundatur: adhuc potest sciri scientia fi<lb ed="#V"/>nita 
+  				praecipue loquendo de tali infinito sicut infinitum convenit 
+  				<lb ed="#V"/>deo propter suam immensam actualitatem: quia scilicet eius actualitas non 
+  				<lb ed="#V"/>finitur terminis cuiuscumque generis vel speciei. Unde dicendo in<pb ed="#V" n="9-v"/><cb ed="#V" n="a"/><lb ed="#V"/>finitum 
+  				etiam isto modo finite potest sciri ex parte scientis. Sed 
+  				<lb ed="#V"/>contra hoc obicitur: quia causa efficiens imponit necessitatem formae: 
+  				<lb ed="#V"/>et forma materiae et non econverso. Cum ergo obiectum sit causa mo<lb ed="#V"/>vens 
+  				ad actum scientiae: obiectum infinitum imponet necessitatem scientiae: 
+  				<lb ed="#V"/>quod sit infinita. Ad hoc dicendum quod causa efficiens imponit necessitatem 
+  				<lb ed="#V"/>formae non ad hoc quod forma effectiva sit talis qualis est formaliter 
+  				<lb ed="#V"/>causa vel forma causa agentis. Alioquin deus non posset fa<lb ed="#V"/>cere 
+  				nisi deum nec virtus infinita nisi effectum infinitum: quod est 
+  				<lb ed="#V"/>manifeste falsum. Sed causa efficiens sic imponit necessitatem for<lb ed="#V"/>mae 
+  				effective: quod facit eam esse in rerum natura: et quod facit eam talem 
+  				<lb ed="#V"/>quale est agens virtualiter non formaliter: et sic est in proposito: 
+  				<lb ed="#V"/>nam obiectum infinitum quod est desu imponit necessitatem scientiae 
+  				<lb ed="#V"/>nostrae: quod sit cognitiva infiniti finite: nam deus qui est infini<lb ed="#V"/>tus 
+  				continet virtualiter effectum suum finitum. Alii respondent quod 
+  				<lb ed="#V"/>ratio infiniti non est ratio formalis obiecti sed annexi: sed 
+  				<lb ed="#V"/>credo quod hoc parum valet: quia accipiendo infinitum pro illa re 
+  				<lb ed="#V"/>quae est fundamentum carentiae finis secundum entitiatem suam obscu<lb ed="#V"/>ram 
+  				absolutam infinitum sic et natura talis est formale obiectum vi<lb ed="#V"/>sionis 
+  				beatae. Quicquid sit de aliis: quae tamen visio finita est. 
+  				<lb ed="#V"/>Qualiter autem privatio possit convenire deo et qualiter non: et quomodo 
+  				<lb ed="#V"/>infinitum de eo dicatur privative vel negative tantum inferius di<lb ed="#V"/>ceutr. 
+  				Unde quod dictum est nunc quod infinitum dictum de deo dicit 
+  				<lb ed="#V"/>formaliter privationem finis accipienda est privatio multum ex<lb ed="#V"/>tenso 
+  				nomine: ut inferius ostendetur. Si autem dicatur contra hoc quod uni<lb ed="#V"/>tas 
+  				scientiae secundum speciem accipitur ab obiecto formaliter: quantum ad 
+  				<lb ed="#V"/>nunc sufficit dicendum quod verum est ceteris paribus ex parte co<lb ed="#V"/>gnoscentis 
+  				et medii cognoscendi: aliter non. Quod patet per ad<lb ed="#V"/>versarios: 
+  				qui ponunt idem formale obiectum scientiae viae et scientiae 
+  				<lb ed="#V"/>patriae: quas constat non esse eiusdem speciei.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 2m dicendum est quod 
+  				<lb ed="#V"/>non oportet quod ille qui cognoscit aliquod medium in quo relucent 
+  				<lb ed="#V"/>aliqua: quod omnia cognoscat in speciali quae relucent in illo et secundum 
+  				<lb ed="#V"/>omnem modum quo possunt cognosci per illud medium: nisi il<lb ed="#V"/>lud 
+  				medium totaliter et plene comprehendat: et ideo ille qui vi<lb ed="#V"/>et 
+  				essentiam divinam in sua entitate divina non oportet quod videat 
+  				<lb ed="#V"/>omne quod relucet in ea: Et multo minus ille qui cognoscti 
+  				<lb ed="#V"/>eam per creaturas: nisi in quodam generali: quia scilicet scit quod omnia re<lb ed="#V"/>lucent 
+  				in essentia divina: sed quae sint illa in speciali non cogno<lb ed="#V"/>scit. 
+  				Notandum est etiam quod aliud est habere aliquid ut medium 
+  				<lb ed="#V"/>cognoscendi tantum: et ut cognitum. Dato ergo quod aliquis utens 
+  				<lb ed="#V"/>aliquo ut medio cognoscendi tantum. cognoscat necessario omnia 
+  				<lb ed="#V"/>illa ad quae illud medium se habet ut representativum quantum 
+  				<lb ed="#V"/>nata sunt repraesentari per illud medium. Si tamen aliquis habeat 
+  				<lb ed="#V"/>aliquid quod est medium cognoscendi ut obiectum cognitum princi<lb ed="#V"/>paliter: 
+  				et ex consequenti ut medium cognoscendi alterum secundum quod me<lb ed="#V"/>dium 
+  				cognoscendi se tenet ex parte rei cognitae: non oportet quia 
+  				<lb ed="#V"/>ita perfecte cognoscat illa quae in tali medio relucent sicut sunt 
+  				<lb ed="#V"/>nata relucere illi cuius illud medium est forma. Sicut per 
+  				<lb ed="#V"/>speciem existentem in oculo alterius non possem ita bene vide<lb ed="#V"/>re 
+  				illud visibile cuius esset illa species: sicut ille cuius esset il<lb ed="#V"/>la 
+  				species ut forma. Et similiter non oportet quod ille qui habet deum pro 
+  				<lb ed="#V"/>obiecto cognito videat omnia quae nata sunt videri per essen<lb ed="#V"/>tiam 
+  				divinam ab eo: sed deus cuius est essentia divina quasi 
+  				<lb ed="#V"/>forma: perfecte videt quae nata sunt relucere in essentia divina 
+  				<lb ed="#V"/>sed intellectus noster non potest cognoscere quae apta nata 
+  				<lb ed="#V"/>sunt relucere in essentia divina et maxime nunc quando non uti<lb ed="#V"/>mur 
+  				ea ut medio cognoscendi: sed ut cognito: licet eius cogni<lb ed="#V"/>tio 
+  				sit causa aliquo modo quare consideramus alia.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 3m dicendum 
+  				<lb ed="#V"/>quod non oportet quod habitudo ad finem extra sit formalis ratio 
+  				<lb ed="#V"/>obiecti illius scientiae quae habet habitudinem ad aliquem finem extra: 
+  				<lb ed="#V"/>sicut patet quod finis extra frenefactive est equitatio. Nec potest 
+  				<lb ed="#V"/>dici quod formalis ratio obiecti frenefactive sit habitudo fre<lb ed="#V"/>ni 
+  				ad equitationem: immo ipsa forma quae est fundamentum ta<lb ed="#V"/>lis 
+  				habitudinis: et ita sufficit quod obiectum formale vel eius 
+  				<lb ed="#V"/>actus habeat habitudinem ad finem extra: nec requiritur quod fi<lb ed="#V"/>nis 
+  				extra sit suum formale obiectum: vel etiam habitudo ad 
+  				<lb ed="#V"/>ipsum: et sic est in proposito. Nam considerare deum et secundum quod 
+  				<lb ed="#V"/>deus et secundum quod trinus et unus: est ita ordinatum ad merendum 
+  				<lb ed="#V"/>gloriam et salutem sicut considerare deum in eo quod salvator.</p>
+  			
+  			<p><lb ed="#V"/><pc ana="#pilcrow"/>Notandum autem hic quod in scientiis speculativis: finis nun<lb ed="#V"/>quam 
+  				est formale obiectum scientiae: nisi forte res quam quis assequitur 
+  				<cb ed="#V" n="b"/><lb ed="#V"/>actu cognoscendi dicatur finis: ita quod visio dicatur finis intra in<lb ed="#V"/>haerens: 
+  				qui est assecutio rei: et res visa dicatur finis ut res as<lb ed="#V"/>secuta. 
+  				In scientiis vero practicis quarum finis est aliqua opera<lb ed="#V"/>tio 
+  				non elicita ab intellectu: sed imperata vel aliquid operatum: 
+  				<lb ed="#V"/>sicut obiectum formale cytharizative est operatio cytharizan<lb ed="#V"/>di: 
+  				potest esse finis formale obiectum. Quia speculative finis 
+  				<lb ed="#V"/>est actus elicitus ab intellectu. Principale autem obiectum ali<lb ed="#V"/>cuius 
+  				habitus non potest esse acus ab eo elicitus: nec etiam 
+  				<lb ed="#V"/>habitudo ad actum. Finis autem practice est actus impera<lb ed="#V"/>tus 
+  				ab intellectu: sicut cytharizare vel aliquid tale. Licet 
+  				<lb ed="#V"/>autem actus elicitus ab habitu non possit esse principale obie<lb ed="#V"/>ctum 
+  				eiusdem habitus: potest tamen esse obiectum principale alicu<lb ed="#V"/>ius 
+  				habitus actus ab eo imperatus mediante actu elicito: er<lb ed="#V"/>go 
+  				etc.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 4m dicendum quod non sequitur quod idem sit habitus cre<lb ed="#V"/>ditivus 
+  				et scitivus: quia id quod demonstrative scitur non perti<lb ed="#V"/>net 
+  				directe nec ad opinionem nec ad fidem: nec hoc est ratio<lb ed="#V"/>ne 
+  				subiecti ad quod omnia pertinet: sed ratione modi cognoscendi 
+  				<lb ed="#V"/>quia modus cognoscendi theologiae est ex creditivis arguere 
+  				<lb ed="#V"/>sicut dictum est supra. Unde ea quae in scientiis sola opinio<lb ed="#V"/>ne 
+  				tenentur non pertinent secundum istum modum cognoscendi 
+  				<lb ed="#V"/>ad habitum ipsum scientificum: quia scientia nunquam elicit actum opi<lb ed="#V"/>nandi: 
+  				sed pertinent ad alium habitum annexum ratione materiae: sicut 
+  				<lb ed="#V"/>illa quae in metaphysicis vel naturalibus sola opinione tenentur.</p>
+  			
+  			<p><lb ed="#V"/>Ad primum ergo factum ad princiaple dicendum quod licet 
+  				<lb ed="#V"/>deus secundum quod deus non dicat solum unam 
+  				<lb ed="#V"/>rationem attributalem: dicit tamen rationem specialem specialis entis respe<lb ed="#V"/>ctu 
+  				entis analogi: quia deus secundum quod deus est quid speciale per prae<lb ed="#V"/>dicationem 
+  				respectu entis in eo quod est ens. Ratio autem proce<lb ed="#V"/>dit 
+  				ac si ratio secundum quam consideratur hoc nomen deus esset ra<lb ed="#V"/>tio 
+  				dei non inquantum deus: sed inquantum ens quod est commune deo 
+  				<lb ed="#V"/>et creaturae.</p>
+  			
+  			<p><pc ana="#pilcrow"/>Ad 2m dicendum quod illi quorum est ista ratio ponunt 
+  				<lb ed="#V"/>quod scientia viae et patriae differunt non propter diversa obiecta: sed prop<lb ed="#V"/>ter 
+  				diversum lumen: et eadem ratione metaphysica et theo<lb ed="#V"/>logia 
+  				dato quod non differrent ratione obiecti: tamen necessario diffe<lb ed="#V"/>rent 
+  				ratione diversorum luminum. Item etiam non quaecumque identi<lb ed="#V"/>tas 
+  				consideratorum facit eandem scientiam. Sed identitas formalis 
+  				<lb ed="#V"/>obiecti. Licet ergo deus possit considerari a metaphysico 
+  				<lb ed="#V"/>et theologico secundum unam rationem: dummodo illa ratio non sit for<lb ed="#V"/>male 
+  				obiectum utriusque: non oportet quod sit una scientia hic et ibi. 
+  				<lb ed="#V"/>Nam metaphysicus considerat de deo inquantum est prima 
+  				<lb ed="#V"/>causa omnium entium habentium causam. Et sic etiam determinat 
+  				<lb ed="#V"/>de deo theologus. Sed deus sub hac ratione non est formale 
+  				<lb ed="#V"/>obiectum alicuius harum duarum scientiarum. Nam formale ob<lb ed="#V"/>iectum 
+  				metaphysice est ens secundum quod ens: formale autem obie<lb ed="#V"/>ctum 
+  				theologiae est deus secundum quod deus.</p>
+  			
+  			<p><lb ed="#V"/>Ad rationem in oppositum: quia falsum concludit di<lb ed="#V"/>cendum 
+  				est quod in scientia qua scitur: quia 
+  				<lb ed="#V"/>est non oportet quod subiectum habeat passiones re differentes ab eo.</p>
+  		</div>  
+  	</body>
+  </text>
+</TEI>
